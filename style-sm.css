@@ -16,7 +16,6 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .logo {
@@ -32,10 +31,28 @@ html {
 }
 
 .research {
+  margin-left: 40%;;
   font-size: 20px;
 }
 
+li a {
+  text-decoration: none;
+  color: white;
+}
+.dropdown-menu-content {
+  display: none;
+  list-style: none;
+  background-color: black;
+  color: white;
+  width: 10px;
+  text-align: right;
+}
+
 .nav-toggle {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   margin-right: 10px;
   margin-bottom: 10px;
   font-size: 50px;
@@ -43,6 +60,11 @@ html {
   color: white;
   border: none;
 }
+
+.visible {
+  display: block;
+}
+
 
 
 /*Main Container Styles */
