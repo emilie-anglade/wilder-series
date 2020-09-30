@@ -9,6 +9,42 @@ html {
   font-size: 62.5%;
 }
 
+/* Navbar */
+
+.navbar {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.logo {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.3em;
+  color: white;
+  border: 2px solid white;
+  border-radius: 40%;
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+
+}
+
+.research {
+  font-size: 20px;
+}
+
+.nav-toggle {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 50px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+
 /*Main Container Styles */
 .main-container {
   background: #787878;
