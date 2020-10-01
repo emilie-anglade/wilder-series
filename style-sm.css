@@ -207,7 +207,7 @@ footer {
 
 .newsletter-container {
   flex: 2;
-  display: flex
+  display: flex;
   flex-direction: column;
   justify-content: center;
   margin: auto;
