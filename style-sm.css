@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: #787878;
 }
 
 html {
@@ -12,26 +13,43 @@ html {
 /* Navbar */
 
 .navbar {
-  background-color: black;
   display: flex;
-  justify-content: space-between;
+  background-color: rgb(44, 42, 42);
+  justify-content: flex-end;
   align-items: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.container {
+  background-color: rgb(44, 42, 42);
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom-right-radius: 20px;
 }
 
 .logo {
+  flex: 2;
+  background-color: rgb(44, 42, 42);
+  border-bottom-left-radius: 20px;
+}
+
+.logo h1 {
+  width: 40%;
   font-family: 'Rubik', sans-serif;
+  font-weight: normal;
   font-size: 1.3em;
   color: white;
-  border: 2px solid white;
-  border-radius: 40%;
+  background-color: black;
+  border-radius: 20px;
   text-align: center;
-  margin: 5px;
+  margin: 10px;
   padding: 10px;
-
 }
 
 .research {
-  margin-left: 40%;;
+  background-color: rgb(44, 42, 42);
   font-size: 20px;
 }
 
@@ -39,24 +57,25 @@ li a {
   text-decoration: none;
   color: white;
 }
+
+#menu {
+  background-color: rgb(44, 42, 42);
+  border-bottom-right-radius: 20px;
+}
 .dropdown-menu-content {
   display: none;
+  background-color: rgb(44, 42, 42);
   list-style: none;
-  background-color: black;
   color: white;
-  width: 10px;
   text-align: right;
 }
 
 .nav-toggle {
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  display: flex;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  font-size: 50px;
-  background-color: black;
+  margin: 20px;
+  background-color: rgb(44, 42, 42);
+  font-size: 30px;
   color: white;
   border: none;
 }
