@@ -1,0 +1,89 @@
+@media screen and (min-width: 760px) {
+    /*Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  /* Navbar */
+  header {
+    background: #787878;
+    min-height: 10vh;
+  }
+  
+  .navbar {
+    display: flex;
+    background-color: rgb(44, 42, 42);
+    justify-content: flex-end;
+    align-items: center;
+    /*min-height: 10vh;*/
+  }
+
+  .container {
+    background-color: rgb(44, 42, 42);
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .logo {
+    flex: 2;
+    background-color: rgb(44, 42, 42);
+  }
+  
+  .logo h1 {
+    max-width: 25rem;
+    min-width: 1rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+    font-size: 2rem;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+    padding: 1rem 0rem;
+  }
+  
+  .research {
+    display: none;
+  }
+  
+  #menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(44, 42, 42);
+  }
+  .dropdown-menu-content {
+    display: flex;
+    margin: 2rem;
+    background-color: rgb(44, 42, 42);
+    list-style: none;
+    color: white;
+    text-align: right;
+  }
+
+  li a {
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    margin: 1rem;
+  }
+  
+  .nav-toggle {
+    display: none;
+  }
+  
+  .visible {
+    display: block;
+  }
+  
+}
