@@ -1,4 +1,9 @@
 /*Global styles */
+
+@media screen {
+  header, body { max-width :760px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -79,4 +84,65 @@ html {
   min-height: 12rem;
   border-radius: 0rem 2rem 2rem 0rem;
   text-align: center;
+}
+
+.team {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.member-photo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 0 20px 0;  
+}
+
+.member-description{
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px 40px 40px 0px;
+  background-color: #a8a8a8;
+  height: 20px;
+  width: 100%;
+  padding-top: 5px;
+}
+  
+}
+
+.container-members{
+  margin-left: 40px;
+  margin-right: auto;
+  justify-content: space-between;
+}
+
+.flag-icon{
+  border-radius: 50px;
+}
+
+.contact-main{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mail-message {
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.mail-message email
+
+.contact-us{
+  text-align: center;
+}
+
+.mail-message{
+  background-color: #a8a8a8;
+  color: whitesmoke;
+}
+
+#message-contact::placeholder{
+  color: whitesmoke;
 }
