@@ -9,6 +9,84 @@ html {
   font-size: 62.5%;
 }
 
+/* Navbar */
+header {
+  background: #787878;
+}
+
+.navbar {
+  display: flex;
+  background-color: rgb(44, 42, 42);
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  min-height: 10vh;
+}
+.container {
+  background-color: rgb(44, 42, 42);
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom-right-radius: 20px;
+}
+
+.logo {
+  flex: 2;
+  background-color: rgb(44, 42, 42);
+  border-bottom-left-radius: 20px;
+}
+
+.logo h1 {
+  width: 40%;
+  font-family: "Rubik", sans-serif;
+  font-weight: normal;
+  font-size: 2rem;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  text-align: center;
+  margin: 10px;
+  padding: 1rem 0rem;
+}
+
+.research {
+  color: white;
+  font-size: 1.5rem;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+#menu {
+  background-color: rgb(44, 42, 42);
+  border-bottom-right-radius: 20px;
+}
+.dropdown-menu-content {
+  display: none;
+  background-color: rgb(44, 42, 42);
+  list-style: none;
+  color: white;
+  text-align: right;
+}
+
+.nav-toggle {
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  background-color: rgb(44, 42, 42);
+  font-size: 2.5rem;
+  color: white;
+  border: none;
+}
+
+.visible {
+  display: block;
+}
+
 /*Main Container Styles */
 .main-container {
   background: #787878;
