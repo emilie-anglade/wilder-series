@@ -12,6 +12,7 @@ html {
 /* Navbar */
 header {
   background: #787878;
+  min-height: 10vh;
 }
 
 .navbar {
@@ -21,7 +22,7 @@ header {
   align-items: center;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  min-height: 10vh;
+  /*min-height: 10vh;*/
 }
 .container {
   background-color: rgb(44, 42, 42);
@@ -96,7 +97,15 @@ li a {
   display: flex;
   flex-direction: column;
   min-width: 100vw;
-  min-height: 70vh;
+  min-height: 80vh;
+}
+/* Title page myfavourites*/
+.fav-title {
+  font-family: 'Rubik', sans-serif;
+  font-size: 2rem;
+  padding: 2rem;
+  text-align: right;
+  text-decoration: underline;
 }
 
 .menu-container {
