@@ -203,7 +203,7 @@ footer {
   background: #787878;
 }
 .footer-container {
-  width: 100vw;
+  width: auto;
   min-height: 10vh;
   background: #41413f;
   border-radius: 2rem 2rem 0rem 0rem;
@@ -265,12 +265,19 @@ footer {
   margin: 0.5rem;
 }
 
+/*CSS A_propos*/
+
 .team {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 30px;
 }
-
+ 
+.container-members{
+  margin : 0px auto 10px 40px;
+  justify-content: space-between;
+}
+ 
 .member-photo{
   display: flex;
   flex-direction: row;
@@ -278,6 +285,10 @@ footer {
   margin: 20px 0 20px 0;  
 }
 
+.flag-icon{
+  border-radius: 50px;
+}
+ 
 .member-description{
   display: flex;
   flex-direction: column;
@@ -287,41 +298,33 @@ footer {
   width: 100%;
   padding-top: 5px;
 }
-  
-}
-
-.container-members{
-  margin-left: 40px;
-  margin-right: auto;
-  justify-content: space-between;
-}
-
-.flag-icon{
-  border-radius: 50px;
-}
-
+   
 .contact-main{
   margin-right: auto;
   margin-left: auto;
 }
-
-.mail-message {
-  border-radius: 10px;
-  padding-top: 5px;
-  padding-left: 5px;
-}
-
-.mail-message email
-
+ 
 .contact-us{
   text-align: center;
+  margin-bottom: 5px;
 }
 
-.mail-message{
+.mail-message  {
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px 0px 10px 5px ;
   background-color: #a8a8a8;
   color: whitesmoke;
 }
-
-#message-contact::placeholder{
+   
+.message-contact::placeholder{
   color: whitesmoke;
+}
+
+.message-contact{
+  margin-top: 5px;
+}
+
+.send {
+  text-align: end;
 }

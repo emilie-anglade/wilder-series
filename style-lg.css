@@ -1,7 +1,7 @@
 /*Global styles */
 
 @media screen {
-    header, body { max-width :760px;
+    header, body { min-width :760px;
   }
   
   * {
@@ -91,14 +91,14 @@
     margin-top: 20px;
     margin-bottom: 30px;
   }
-  
+   
   .member-photo{
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: 20px 0 20px 0;  
   }
-  
+   
   .member-description{
     display: flex;
     flex-direction: column;
@@ -107,37 +107,41 @@
     height: 20px;
     width: 100%;
     padding-top: 5px;
-}
-  
-   .container-members{
+  }
+    
+  }
+   
+  .container-members{
     margin-left: 40px;
     margin-right: auto;
     justify-content: space-between;
   }
-
+   
   .flag-icon{
     border-radius: 50px;
   }
-
-  
-  .mail-message {
+   
+  .contact-main{
+    margin-right: auto;
+    margin-left: auto;
+  }
+   
+  .mail-message  {
     border-radius: 10px;
     padding-top: 5px;
     padding-left: 5px;
-  }
-  .contact-us{
-    text-align: center;
-  }
-
-  .send{
-      text-align: right;
-  }
-
-  .mail-message{
     background-color: #a8a8a8;
     color: whitesmoke;
   }
-
+       
+  .contact-us{
+    text-align: center;
+  }
+    
   #message-contact::placeholder{
     color: whitesmoke;
+  }
+
+  .send {
+    text-align: end;
   }

@@ -1,63 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Christophe Veloupoule - Adrien Faure - Alexandre Dietsch - Emilie Anglade">
-    <link href="style-sm.css" rel="stylesheet">
-    <link href="style-lg.css" rel="stylesheet">
-    <link href="https://fonts.google.com/specimen/Nunito#standard-styles" rel="stylesheet">
-    <link href="https://fonts.google.com/specimen/Rubik?preview.text=Wilder%27s%20Series&preview.text_type=custom" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="author"
+      content="Christophe Veloupoule - Adrien Faure - Alexandre Dietsch - Emilie Anglade"
+    />
+    <link href="style-sm.css" rel="stylesheet" />
+    <link href="style-lg.css" rel="stylesheet" />
+    <link
+      href="https://fonts.google.com/specimen/Nunito#standard-styles"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.google.com/specimen/Rubik?preview.text=Wilder%27s%20Series&preview.text_type=custom"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
 
     <title>Wilder's series</title>
-</head>
+  </head>
 <body>
     <header>
         <nav class="navbar">
-            <div class="logo">Wilder's series</div>
-            
-            <div class="research">&#128269;</div>
-            <ul class = "menu">
+          <div class="logo"><h1>Wilder's series</h1></div>
+          <div class="container">
+            <div class="research">
+              <i class="fas fa-search"></i>
+            </div>
+            <ul id="menu">
+              <button class="nav-toggle">
+                <i class="fas fa-bars"></i>
+              </button>
+              <div class="dropdown-menu-content">
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="#">FAVOURITES</a></li>
                 <li><a href="#">CONTACT US</a></li>
+              </div>
             </ul>
-            </nav>
-        </header>
-
+          </div>
+        </nav>
+      </header>
     <main>
         <section class="main-container">
-            <h3 class="team">THE TEAM</h3>
+            <h2 class="team">THE TEAM</h2>
             <div class="container-members">
                 <div class="member-photo">
-                  <a href="https://placeholder.com"><img src="https://via.placeholder.com/90" alt="" class="flag-icon"></a>
+                  <a href="https://placeholder.com"><img src="https://via.placeholder.com/70" alt="" class="flag-icon"></a>
                   <div class="member-description">Christophe passionné de séries télévisées...</div>   
                 </div>    
                 <div class="member-photo">
-                    <a href="https://placeholder.com"><img src="https://via.placeholder.com/90" alt="" class="flag-icon"></a>
+                    <a href="https://placeholder.com"><img src="https://via.placeholder.com/70" alt="" class="flag-icon"></a>
                     <div class="member-description">Adrien passionné de séries télévisées...</div>   
                 </div>    
                 <div class="member-photo">
-                    <a href="https://placeholder.com"><img src="https://via.placeholder.com/90" alt="" class="flag-icon"></a>
+                    <a href="https://placeholder.com"><img src="https://via.placeholder.com/70" alt="" class="flag-icon"></a>
                     <div class="member-description">Alexandre passionné de séries télévisées...</div>   
                 </div>  
                 <div class="member-photo">
-                    <a href="https://placeholder.com"><img src="https://via.placeholder.com/90" alt="" class="flag-icon"></a>
+                    <a href="https://placeholder.com"><img src="https://via.placeholder.com/70" alt="" class="flag-icon"></a>
                     <div class="member-description">Emilie passionnée de séries télévisées...</div>   
                 </div>                        
-                <br/><br/><br/><br/>
             </div>
             <section class="contact-main">
                 <h2 class="contact-us">CONTACT US </h2>
-                <br/>
                 <hr/>
-                <br>
                 <form id="contactForm">
                     <label for="email"></label>
                     <input type="text" class="mail-message" id="email" name="email" value="Enter your email" size="30" ><br/><br/>
                                 
                     <label for="message"></label>
-                    <textarea name="message" class="mail-message" id="message-contact" cols="30" rows="10" placeholder="Your message"></textarea><br/><br/>
+                    <textarea name="message" class="mail-message message-contact" cols="30" rows="10" placeholder="Your message"></textarea>
                     <div class="send"><input type="submit" value="Send"> </div>
                     
                 </form>
@@ -66,24 +85,22 @@
     </main>
 
     <footer>
-        <ul class="footer1">
-            <li>Newsletter</li>
-            <li><input type="email" name="email" placeholder="@"></li>
-            <li><button class="button" title="ok">OK</button></li>
-        </ul>
-        <ul class="footer2">
-            <li>
-                <a href="Contactus.html" title="Contact">Contact us</a>
-            </li>
-            <li><a href="Legal Notices">Legal Notices</a></li>
-        <div class="footer3">
-            <ul class="SocialNet">
-                <li><img src="facebook" alt="Facebook"></li>
-                <li><img src="twitter" alt="Twitter"></li>
-                <li><img src="instagram" alt="Instagram"></li>
-            </ul>
+      <div class="footer-container">
+        <div class="newsletter-container">
+          <div class="box-newsletter">
+            <h2>NEWSLETTER</h2>
+            <input type="email" id="input-newsletter" name="input-newsletter" />
+            <button type="submit">Ok</button>
+          </div>
         </div>
+        <div class="social-container">
+          <div class="social-logo">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+          </div>
+        </div>
+      </div>
     </footer>
-
 </body>
 </html>
