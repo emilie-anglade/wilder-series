@@ -1,4 +1,5 @@
-/*Global styles */
+@media screen and (max-width: 760px) {
+  /*Global styles */
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +13,7 @@ html {
 /* Navbar */
 header {
   background: #787878;
+  min-height: 10vh;
 }
 
 .navbar {
@@ -21,9 +23,9 @@ header {
   align-items: center;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  min-height: 10vh;
+  /*min-height: 10vh;*/
 }
-.container {
+.nav-container {
   background-color: rgb(44, 42, 42);
   flex: 1;
   display: flex;
@@ -39,8 +41,9 @@ header {
 }
 
 .logo h1 {
-  width: 40%;
-  font-family: "Rubik", sans-serif;
+  max-width: 25rem;
+  min-width: 1rem;
+  font-family: 'Rubik', sans-serif;
   font-weight: normal;
   font-size: 2rem;
   color: white;
@@ -56,10 +59,10 @@ header {
   font-size: 1.5rem;
 }
 
-li a {
-  text-decoration: none;
-  color: white;
+.search-container {
+  display: none;
 }
+
 
 #menu {
   background-color: rgb(44, 42, 42);
@@ -73,6 +76,10 @@ li a {
   text-align: right;
 }
 
+li a {
+  text-decoration: none;
+  color: white;
+}
 .nav-toggle {
   justify-content: center;
   align-items: center;
@@ -81,6 +88,7 @@ li a {
   font-size: 2.5rem;
   color: white;
   border: none;
+  border-bottom-right-radius: 20px;
 }
 
 .visible {
@@ -94,7 +102,15 @@ li a {
   display: flex;
   flex-direction: column;
   min-width: 100vw;
-  min-height: 70vh;
+  min-height: 80vh;
+}
+/* Title page myfavourites*/
+.fav-title {
+  font-family: 'Rubik', sans-serif;
+  font-size: 2rem;
+  padding: 2rem;
+  text-align: right;
+  text-decoration: underline;
 }
 
 .menu-container {
@@ -207,7 +223,7 @@ footer {
 
 .newsletter-container {
   flex: 2;
-  display: flex
+  display: flex;
   flex-direction: column;
   justify-content: center;
   margin: auto;
@@ -258,4 +274,6 @@ footer {
   color: #787878;
   font-size: 2rem;
   margin: 0.5rem;
+}
+
 }
