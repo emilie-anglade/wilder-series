@@ -1,9 +1,4 @@
 /*Global styles */
-
-@media screen {
-  header, body { max-width :760px;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -268,13 +263,23 @@ footer {
 /*CSS A_propos*/
 
 .team {
+  padding-top: 10px;
+  display: flex;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  justify-content: center;
+    color : white;
+     
 }
  
+.main-container-team{
+  margin : auto;
+  background-color: #787878;
+}
+
 .container-members{
-  margin : 0px auto 10px 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+ 
   justify-content: space-between;
 }
  
@@ -298,16 +303,29 @@ footer {
   width: 100%;
   padding-top: 5px;
 }
-   
+ 
+.contact{
+  display: flex;
+  background-color: grey;
+  justify-content: center;
+}
+
 .contact-main{
+  display: flex;
+  flex-direction: column;
   margin-right: auto;
   margin-left: auto;
+  text-align: center;
 }
  
 .contact-us{
-  text-align: center;
+  border-bottom: solid 1px white;
+  margin: auto;
   margin-bottom: 5px;
+  
+  color: white;
 }
+
 
 .mail-message  {
   margin-top: 10px;
@@ -327,4 +345,9 @@ footer {
 
 .send {
   text-align: end;
+  margin-right: 30px;
+}
+
+#contactForm{
+  padding-bottom: 10px;
 }
