@@ -25,7 +25,7 @@ header {
   border-bottom-right-radius: 20px;
   /*min-height: 10vh;*/
 }
-.container {
+.nav-container {
   background-color: rgb(44, 42, 42);
   flex: 1;
   display: flex;
