@@ -154,6 +154,11 @@
     position: relative;
   }
 
+  .link-page {
+    text-decoration: none;
+    color: white;
+  }
+
   .image-container {
     display: flex;
     flex-direction: column;
