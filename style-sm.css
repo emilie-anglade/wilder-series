@@ -40,7 +40,8 @@
     border-bottom-left-radius: 20px;
   }
 
-  .logo h1 {
+  .logo-title {
+    text-decoration: none;
     max-width: 25rem;
     min-width: 1rem;
     font-family: "Rubik", sans-serif;
@@ -69,10 +70,21 @@
   }
   .dropdown-menu-content {
     display: none;
+    position: absolute;
+    right: 0;
+    top: 10vh;
+    width: auto;
+    border-radius: 20px;
+    padding: 2rem;
     background-color: rgb(44, 42, 42);
+    font-size: 1.5rem;
     list-style: none;
     color: white;
     text-align: right;
+  }
+
+  .dropdown-menu-content li {
+    margin: 1rem;
   }
 
   li a {
@@ -91,7 +103,7 @@
   }
 
   .visible {
-    display: block;
+    display: flex;
   }
 
   /*Main Container Styles */
@@ -342,34 +354,33 @@
   display: flex;
   text-align: center;
   justify-content: center;
-    color : white;
-     
+  color: white;
 }
- 
-.main-container-team{
-  margin : auto;
+
+.main-container-team {
+  margin: auto;
   background-color: #787878;
 }
 
-.container-members{
+.container-members {
   padding-left: 20px;
   padding-right: 20px;
- 
+
   justify-content: space-between;
 }
- 
-.member-photo{
+
+.member-photo {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 20px 0 20px 0;  
+  margin: 20px 0 20px 0;
 }
 
-.flag-icon{
+.flag-icon {
   border-radius: 50px;
 }
- 
-.member-description{
+
+.member-description {
   display: flex;
   flex-direction: column;
   border-radius: 0px 40px 40px 0px;
@@ -378,43 +389,42 @@
   width: 100%;
   padding-top: 5px;
 }
- 
-.contact{
+
+.contact {
   display: flex;
   background-color: grey;
   justify-content: center;
 }
 
-.contact-main{
+.contact-main {
   display: flex;
   flex-direction: column;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
 }
- 
-.contact-us{
+
+.contact-us {
   border-bottom: solid 1px white;
   margin: auto;
   margin-bottom: 5px;
-  
+
   color: white;
 }
 
-
-.mail-message  {
+.mail-message {
   margin-top: 10px;
   border-radius: 10px;
-  padding: 10px 0px 10px 5px ;
+  padding: 10px 0px 10px 5px;
   background-color: #a8a8a8;
   color: whitesmoke;
 }
-   
-.message-contact::placeholder{
+
+.message-contact::placeholder {
   color: whitesmoke;
 }
 
-.message-contact{
+.message-contact {
   margin-top: 5px;
 }
 
@@ -423,6 +433,6 @@
   margin-right: 60px;
 }
 
-#contactForm{
+#contactForm {
   padding-bottom: 10px;
 }
