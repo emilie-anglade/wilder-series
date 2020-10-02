@@ -62,6 +62,16 @@
 
   .search-container {
     display: none;
+    position: absolute;
+    right: 0;
+    top: 10vh;
+    width: auto;
+    border-radius: 20px;
+    padding: 2rem;
+    background-color: rgb(44, 42, 42);
+    font-family: "Rubik", sans-serif;
+    font-size: 1.5rem;
+    color: white;
   }
 
   #menu {
@@ -77,6 +87,7 @@
     border-radius: 20px;
     padding: 2rem;
     background-color: rgb(44, 42, 42);
+    font-family: "Rubik", sans-serif;
     font-size: 1.5rem;
     list-style: none;
     color: white;
