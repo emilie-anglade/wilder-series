@@ -13,8 +13,7 @@
   /* Navbar */
   header {
     background: #787878;
-    min-height: 10vh;
-  }
+   }
 
   .navbar {
     display: flex;
@@ -349,24 +348,26 @@
 
 /*CSS A_propos sm*/
 
+.main-container-team {
+  margin: auto;
+  background-color: #787878;
+  min-width: 100vw;
+  min-height: 85vh;
+}
+
 .team {
-  padding-top: 10px;
+  padding-top: 25px;
   display: flex;
   text-align: center;
   justify-content: center;
   color: white;
 }
 
-.main-container-team {
-  margin: auto;
-  background-color: #787878;
-}
-
 .container-members {
   padding-left: 20px;
   padding-right: 20px;
-
   justify-content: space-between;
+  margin-bottom: 50px;
 }
 
 .member-photo {
@@ -377,23 +378,23 @@
 }
 
 .flag-icon {
-  border-radius: 50px;
+  border-radius: 60px;
+  z-index: 1;
+  position: relative;
 }
 
 .member-description {
   display: flex;
   flex-direction: column;
-  border-radius: 0px 40px 40px 0px;
+  border-radius: 10px 40px 40px 10px;
   background-color: #a8a8a8;
-  height: 20px;
+  height: 50px;
   width: 100%;
-  padding-top: 5px;
-}
-
-.contact {
-  display: flex;
-  background-color: grey;
-  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 10px;
+  margin-left: -4px;
+  font-size: 1Rem;
 }
 
 .contact-main {
@@ -404,18 +405,32 @@
   text-align: center;
 }
 
+.contact {
+  display: flex;
+  background-color: grey;
+  justify-content: center;
+}
+
 .contact-us {
   border-bottom: solid 1px white;
   margin: auto;
   margin-bottom: 5px;
-
   color: white;
+}
+
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5px;
+  margin: auto;
 }
 
 .mail-message {
   margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: 10px;
   padding: 10px 0px 10px 5px;
+  border: 0px;
   background-color: #a8a8a8;
   color: whitesmoke;
 }
@@ -430,9 +445,10 @@
 
 .send {
   text-align: end;
-  margin-right: 60px;
+  margin-right: -20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
 }
 
-#contactForm {
-  padding-bottom: 10px;
-}
+
