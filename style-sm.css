@@ -335,6 +335,17 @@
     justify-content: center;
     align-items: center;
   }
+  .button-return {
+    position: absolute;
+    top: 10rem;
+    left: 4rem;
+    font-size: 2.5rem;
+  }
+
+  .button-return i {
+    color: white;
+    cursor: pointer;
+  }
 
   .image-container-house {
     min-height: 25rem;
@@ -406,8 +417,8 @@
     background: #4d4a4a;
   }
 
-  . .stars-container-page2 {
-    margin: 5rem 0rem 0rem 18rem;
+  .stars-container-page2 {
+    margin: 5rem 0rem 0rem 12rem;
   }
 
   .stars-container-page2 i {
@@ -495,7 +506,7 @@
   }
 
   .stars-container-page3 {
-    margin: 5rem 0rem 0rem 18rem;
+    margin: 5rem 0rem 0rem 12rem;
   }
 
   .stars-container-page3 i {
