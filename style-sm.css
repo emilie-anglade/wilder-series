@@ -51,7 +51,7 @@
     background-color: black;
     border-radius: 20px;
     text-align: center;
-    margin: 10px;
+    margin: 1rem;
     padding: 1rem 0rem;
   }
 
@@ -63,18 +63,18 @@
   .search-container {
     display: none;
     position: absolute;
-    right: 0;
-    top: 10vh;
+    right: 7.5vh;
+    top: 9.5vh;
     width: auto;
-    border-radius: 20px;
-    padding: 2rem;
+    border-radius: 20px 0 20px 20px;
+    padding: 1.5rem;
     background-color: rgb(44, 42, 42);
     font-family: "Rubik", sans-serif;
     font-size: 1.5rem;
     color: white;
   }
 
-  #menu {
+  .menu {
     background-color: rgb(44, 42, 42);
     border-bottom-right-radius: 20px;
   }
@@ -82,10 +82,10 @@
     display: none;
     position: absolute;
     right: 0;
-    top: 10vh;
+    top: 9.5vh;
     width: auto;
-    border-radius: 20px;
-    padding: 2rem;
+    border-radius: 20px 0 20px 20px;
+    padding: 1.5rem;
     background-color: rgb(44, 42, 42);
     font-family: "Rubik", sans-serif;
     font-size: 1.5rem;
@@ -102,6 +102,7 @@
     text-decoration: none;
     color: white;
   }
+
   .nav-toggle {
     justify-content: center;
     align-items: center;
