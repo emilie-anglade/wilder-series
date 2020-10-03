@@ -618,6 +618,31 @@
   .stars-container-page4 i {
     color: #787878;
   }
+
+  /*Favourites Page*/
+  .image-container-favourite {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-width: 25rem;
+    min-height: 25rem;
+    border-radius: 2rem;
+    background: #8c8b8b;
+  }
+  .house-image-favourite {
+    background-image: url("./images/house-image.jpg");
+    background-size: cover;
+    background-position: top;
+    cursor: pointer;
+  }
+  .favorite-logo-favourite {
+    position: relative;
+    bottom: 16rem;
+    left: 10rem;
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 1.8rem;
+  }
 }
 
 /*CSS A_propos*/
