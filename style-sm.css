@@ -363,10 +363,16 @@
 
   .favorite-logo-page2 {
     position: relative;
-    bottom: 13rem;
-    left: 12rem;
+    display: flex;
+    flex-direction: column;
+    bottom: 10rem;
+    left: 13rem;
     color: rgba(255, 255, 255, 0.712);
-    font-size: 2.5rem;
+    font-size: 2rem;
+  }
+
+  .favorite-logo-page2 i {
+    margin-bottom: 1rem;
   }
 
   .title-house {
@@ -451,10 +457,16 @@
 
   .favorite-logo-page3 {
     position: relative;
-    bottom: 13rem;
-    left: 12rem;
+    display: flex;
+    flex-direction: column;
+    bottom: 10rem;
+    left: 13rem;
     color: rgba(255, 255, 255, 0.712);
-    font-size: 2.5rem;
+    font-size: 2rem;
+  }
+
+  .favorite-logo-page3 i {
+    margin-bottom: 1rem;
   }
 
   .title-got {
@@ -539,10 +551,16 @@
 
   .favorite-logo-page4 {
     position: relative;
-    bottom: 13rem;
-    left: 12rem;
+    display: flex;
+    flex-direction: column;
+    bottom: 10rem;
+    left: 13rem;
     color: rgba(255, 255, 255, 0.712);
-    font-size: 2.5rem;
+    font-size: 2rem;
+  }
+
+  .favorite-logo-page4 i {
+    margin-bottom: 1rem;
   }
 
   .title-narcos {
