@@ -116,12 +116,16 @@
     min-height: 80vh;
   }
   /* Title page myfavourites*/
-  .fav-title {
-    font-family: "Rubik", sans-serif;
-    font-size: 2rem;
-    padding: 2rem;
-    text-align: right;
-    text-decoration: underline;
+  .list-my-favourites {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 1.6rem;
+    margin: 2rem 2rem;
+  }
+
+  .list-my-favourites li {
+    border-bottom: 0.3rem solid white;
   }
 
   .menu-container {
@@ -134,7 +138,8 @@
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    font-size: 2rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
     margin: 2rem 0rem;
   }
   .list li {
