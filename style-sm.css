@@ -23,15 +23,7 @@
     align-items: center;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    /*min-height: 10vh;*/
-  }
-  .nav-container {
-    background-color: #4d4a4a;
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    border-bottom-right-radius: 20px;
+    min-height: 10vh;
   }
 
   .logo {
@@ -53,6 +45,15 @@
     text-align: center;
     margin: 1rem;
     padding: 1rem 0rem;
+  }
+
+  .nav-container {
+    background-color: #4d4a4a;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom-right-radius: 20px;
   }
 
   .research {
