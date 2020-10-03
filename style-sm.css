@@ -248,6 +248,10 @@
     color: #787878;
   }
 
+  .star-check::before {
+    color: rgba(255, 215, 0.6);
+  }
+
   /*Footer */
 
   footer {
