@@ -465,6 +465,78 @@
   .stars-container-page3 i {
     color: #787878;
   }
+  /*Page 4 */
+  .main-container-4 {
+    min-height: 80vh;
+    background: radial-gradient(#787878, #555454);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container-narcos {
+    min-height: 25rem;
+    min-width: 80vw;
+    background: #8c8b8b;
+    border-radius: 2rem 2rem 0rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url("./images/narcos-image.jpg");
+    background-size: cover;
+    background-position: top;
+  }
+
+  .favorite-logo-page4 {
+    position: relative;
+    bottom: 13rem;
+    left: 12rem;
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 2.5rem;
+  }
+
+  .title-narcos {
+    background: rgba(199, 57, 255, 0.5);
+    min-height: 5rem;
+    min-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+
+  .description-container-narcos {
+    min-height: 25rem;
+    min-width: 80vw;
+    background: #a8a8a8;
+    border-radius: 0rem 0rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .text-container-narcos {
+    width: 70vw;
+    height: 15rem;
+    font-size: 1.6rem;
+    color: white;
+  }
+
+  .stars-container-page4 {
+    margin: 5rem 0rem 0rem 18rem;
+  }
+
+  .stars-container-page4 i {
+    color: #787878;
+  }
 }
 
 /*CSS A_propos*/
