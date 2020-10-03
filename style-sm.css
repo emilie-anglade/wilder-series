@@ -274,52 +274,57 @@
 
   footer {
     background: radial-gradient(#787878, #555454);
+    font-family: "Rubik", sans-serif;
   }
+
   .footer-container {
-    width: 100vw;
     min-height: 10vh;
     background: #4d4a4a;
     border-radius: 2rem 2rem 0rem 0rem;
     display: flex;
   }
 
+  .lg-notices {
+    display: none;
+  }
+
   .newsletter-container {
     flex: 2;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     margin: auto;
+    padding-left: 1rem;
     color: white;
   }
 
   .box-newsletter {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
   }
 
-  .box-newsletter h2 {
-    min-width: 50vw;
-    text-align: center;
-    margin-bottom: 0.8rem;
+  .newsletter-lg {
+    display: none;
+  }
+  .newsletter-sm {
+    font-size: 1.4rem;
   }
 
   #input-newsletter {
     background-color: rgba(120, 120, 120, 0.5);
     color: white;
     border: none;
+    padding: 0.5rem 1rem;
+    font-family: "Rubik", sans-serif;
     border-radius: 0.5rem;
-    min-height: 2rem;
-    min-width: 50vw;
+    width: 90%;
   }
 
   .box-newsletter button {
-    min-width: 10vw;
-    min-height: 2rem;
+    width: auto;
     border-radius: 0.5rem;
-    position: relative;
-    bottom: 2rem;
+    padding: 0.5rem;
     border: none;
     background: linear-gradient(90deg, #c739ff, #8539ff);
 
@@ -333,10 +338,14 @@
     margin-right: 2rem;
   }
 
+  .social-title {
+    display: none;
+  }
+
   .social-container i {
     color: #787878;
     font-size: 2rem;
-    margin: 0.5rem;
+    margin-left: 1rem;
   }
 
   /*Page-2*/
