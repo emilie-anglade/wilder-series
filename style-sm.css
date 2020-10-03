@@ -18,7 +18,7 @@
 
   .navbar {
     display: flex;
-    background-color: rgb(44, 42, 42);
+    background-color: #4d4a4a;
     justify-content: flex-end;
     align-items: center;
     border-bottom-left-radius: 20px;
@@ -26,7 +26,7 @@
     /*min-height: 10vh;*/
   }
   .nav-container {
-    background-color: rgb(44, 42, 42);
+    background-color: #4d4a4a;
     flex: 1;
     display: flex;
     justify-content: flex-end;
@@ -36,7 +36,7 @@
 
   .logo {
     flex: 2;
-    background-color: rgb(44, 42, 42);
+    background-color: #4d4a4a;
     border-bottom-left-radius: 20px;
   }
 
@@ -65,7 +65,7 @@
   }
 
   #menu {
-    background-color: rgb(44, 42, 42);
+    background-color: #4d4a4a;
     border-bottom-right-radius: 20px;
   }
   .dropdown-menu-content {
@@ -76,7 +76,7 @@
     width: auto;
     border-radius: 20px;
     padding: 2rem;
-    background-color: rgb(44, 42, 42);
+    background-color: #4d4a4a;
     font-size: 1.5rem;
     list-style: none;
     color: white;
@@ -95,7 +95,7 @@
     justify-content: center;
     align-items: center;
     margin: 20px;
-    background-color: rgb(44, 42, 42);
+    background-color: #4d4a4a;
     font-size: 2.5rem;
     color: white;
     border: none;
@@ -251,12 +251,12 @@
   /*Footer */
 
   footer {
-    background: #787878;
+    background: radial-gradient(#787878, #555454);
   }
   .footer-container {
     width: 100vw;
     min-height: 10vh;
-    background: #41413f;
+    background: #4d4a4a;
     border-radius: 2rem 2rem 0rem 0rem;
     display: flex;
   }
