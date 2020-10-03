@@ -12,7 +12,7 @@
 
   /* Navbar */
   header {
-    background: #787878;
+    background: radial-gradient(#787878, #555454);
     min-height: 10vh;
   }
 
@@ -108,7 +108,7 @@
 
   /*Main Container Styles */
   .main-container {
-    background: #787878;
+    background: radial-gradient(#787878, #555454);
     color: white;
     display: flex;
     flex-direction: column;
@@ -316,7 +316,7 @@
   /*Page-2*/
   .main-container-2 {
     min-height: 80vh;
-    background: #787878;
+    background: radial-gradient(#787878, #555454);
     display: flex;
     flex-direction: column;
     justify-content: center;
