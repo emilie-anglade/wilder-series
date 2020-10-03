@@ -384,7 +384,29 @@
     flex-wrap: wrap;
   }
 
-  .stars-container-page2 {
+  .text-container-house {
+    width: 70vw;
+    height: 15rem;
+    font-size: 1.6rem;
+    color: white;
+  }
+
+  .container-community {
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .button-watch-house {
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    background: #4d4a4a;
+  }
+
+  . .stars-container-page2 {
     margin: 5rem 0rem 0rem 18rem;
   }
 
@@ -392,12 +414,6 @@
     color: #787878;
   }
 
-  .text-container-house {
-    width: 70vw;
-    height: 15rem;
-    font-size: 1.6rem;
-    color: white;
-  }
   /*Page 3 */
   .main-container-3 {
     min-height: 80vh;
@@ -463,6 +479,21 @@
     color: white;
   }
 
+  .container-community-got {
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .button-watch-got {
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    background: #4d4a4a;
+  }
+
   .stars-container-page3 {
     margin: 5rem 0rem 0rem 18rem;
   }
@@ -470,6 +501,7 @@
   .stars-container-page3 i {
     color: #787878;
   }
+
   /*Page 4 */
   .main-container-4 {
     min-height: 80vh;
@@ -535,8 +567,23 @@
     color: white;
   }
 
+  .container-community-narcos {
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+
+  .button-watch-narcos {
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    background: #4d4a4a;
+  }
+
   .stars-container-page4 {
-    margin: 5rem 0rem 0rem 18rem;
+    margin: 5rem 0rem 0rem 12rem;
   }
 
   .stars-container-page4 i {
