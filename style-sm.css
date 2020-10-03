@@ -48,7 +48,7 @@
     font-weight: normal;
     font-size: 2rem;
     color: white;
-    background-color: black;
+    background: linear-gradient(90deg, #c739ff, #8539ff);
     border-radius: 20px;
     text-align: center;
     margin: 10px;
@@ -212,7 +212,7 @@
   }
 
   .image-description {
-    background: #787878;
+    background: rgba(199, 57, 255, 0.5);
     min-width: 10rem;
     min-height: 3rem;
     border-radius: 2rem;
