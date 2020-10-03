@@ -182,6 +182,27 @@
     background: #8c8b8b;
   }
 
+  .house-image {
+    background-image: url("./images/house-image.jpg");
+    background-size: cover;
+    background-position: top;
+    cursor: pointer;
+  }
+
+  .got-image {
+    background-image: url("./images/got-image.jpg");
+    background-size: cover;
+    background-position: top;
+    cursor: pointer;
+  }
+
+  .narcos-image {
+    background-image: url("./images/narcos-image.jpg");
+    background-size: cover;
+    background-position: top;
+    cursor: pointer;
+  }
+
   .favorite-logo {
     position: relative;
     bottom: 10rem;
