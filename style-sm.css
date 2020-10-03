@@ -69,9 +69,31 @@
     width: auto;
     border-radius: 20px 0 20px 20px;
     padding: 1.5rem;
-    background-color: rgb(44, 42, 42);
+    background-color: rgb(77, 74, 74);
     font-family: "Rubik", sans-serif;
     font-size: 1.5rem;
+    color: white;
+  }
+  .search-container input {
+    width: auto;
+    padding: 0.5rem 1rem;
+    background-color: rgba(120, 120, 120, 0.5);
+    border: none;
+    border-radius: 0.5rem;
+  }
+
+  .search-container input::placeholder {
+    font-family: "Rubik", sans-serif;
+    font-size: 1.5rem;
+  }
+
+  .searchButton {
+    margin-left: -2rem;
+    width: auto;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border: none;
+    background: linear-gradient(90deg, #c739ff, #8539ff);
     color: white;
   }
 
@@ -88,7 +110,7 @@
     border-radius: 20px 0 20px 20px;
     padding: 1.5rem;
     font-family: "Rubik", sans-serif;
-    background-color: #4d4a4a;
+    background-color: rgb(77, 74, 74);
     font-size: 1.5rem;
     list-style: none;
     color: white;
