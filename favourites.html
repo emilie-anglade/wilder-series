@@ -29,65 +29,101 @@
   <body>
     <header>
       <nav class="navbar">
-        <div class="logo"><h1>Wilder's series</h1></div>
-        <div class="container">
+        <div class="logo">
+          <a href="index.html" class="link-page"
+            ><h1 class="logo-title">Wilder's series</h1></a
+          >
+        </div>
+        <div class="nav-container">
+          <div class="search-container">
+            <form id="search-form" action="/#">
+              <input
+                id="input-search"
+                type="text"
+                placeholder="Search..."
+                name="search"
+              />
+              <button type="submit" class="searchButton">
+                <i class="fa fa-search"></i>
+              </button>
+            </form>
+          </div>
           <div class="research">
             <i class="fas fa-search"></i>
           </div>
-          <ul id="menu">
+          <div class="menu">
             <button class="nav-toggle">
               <i class="fas fa-bars"></i>
             </button>
             <div class="dropdown-menu-content">
               <li><a href="index.html">HOME</a></li>
-              <li><a href="#">FAVOURITES</a></li>
-              <li><a href="#">CONTACT US</a></li>
+              <li><a href="favourites.html">FAVOURITES</a></li>
+              <li><a href="A_propos.html">CONTACT US</a></li>
             </div>
-          </ul>
+          </div>
         </div>
       </nav>
     </header>
     <main>
       <section class="main-container">
-        <h1 class="fav-title">My favourites</h1>
+        <div class="menu-container">
+          <ul class="list-my-favourites">
+            <li>MY FAVOURITES</li>
+          </ul>
+        </div>
         <div class="article-container">
           <div class="article article-drhouse">
-            <div class="image-container">
-              <div class="favorite-logo">
-                <i class="far fa-heart"></i>
+            <a class="link-page" href="page-2.html">
+              <div class="image-container house-image">
+                <div class="favorite-logo">
+                  <i class="fas fa-heart"></i>
+                </div>
+                <div class="image-description">
+                  <p>Dr House</p>
+                </div>
               </div>
-              <div class="image-description">
-                <p>Dr House</p>
-              </div>
-            </div>
+            </a>
             <div class="text-container">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
                 voluptate labore nobis maxime beatae.
               </p>
               <div class="stars-container">
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
+                <i class="fas fa-star star-check"></i>
+                <i class="fas fa-star star-check"></i>
+                <i class="fas fa-star star-check"></i>
                 <i class="far fa-star"></i>
                 <i class="far fa-star"></i>
               </div>
             </div>
           </div>
-        </div>
       </section>
     </main>
     <footer>
       <div class="footer-container">
+        <div class="lg-notices">
+          <h2><a href="A_propos.html">CONTACT US</a></h2>
+          <h2>LEGAL NOTICES</h2>
+        </div>
         <div class="newsletter-container">
+          <div class="newsletter-title">
+            <h2 class="newsletter-sm">NEWSLETTER</h2>
+            <h2 class="newsletter-lg">SUBSCRIBE TO OUR NEWSLETTER</h2>
+          </div>
           <div class="box-newsletter">
-            <h2>NEWSLETTER</h2>
-            <input type="email" id="input-newsletter" name="input-newsletter" />
+            <input
+              type="email"
+              id="input-newsletter"
+              name="input-newsletter"
+              placeholder="Enter your email"
+              ;
+            />
             <button type="submit">Ok</button>
           </div>
         </div>
         <div class="social-container">
           <div class="social-logo">
+            <h2 class="social-title">FOLLOW US</h2>
             <i class="fab fa-facebook"></i>
             <i class="fab fa-instagram"></i>
             <i class="fab fa-twitter"></i>
@@ -95,5 +131,6 @@
         </div>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
