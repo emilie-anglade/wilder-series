@@ -91,18 +91,27 @@
 
 .main-container-team{
   margin : auto;
-  background-color: #787878;
+  display: flex;
+  background: #C4C4C4;
   min-width: 100vw;
-  min-height: 85vh;
+  min-height: 80vh;
+  color: white;
+  align-items: baseline;
+  padding-top: 60px;
+}
+
+.team-container-members{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .team {
   padding-top: 25px;
-  display: flex;
   text-align: center;
-  justify-content: center;
   color : white;
-     
+  flex-direction: column;
+  margin-bottom: 40px;
 }
 
 .container-members{
@@ -110,6 +119,7 @@
   padding-right: 20px;
   justify-content: space-between;
   margin-bottom: 50px;
+  border-right: solid 10px;  
 }
   
 .member-photo{
@@ -128,23 +138,24 @@
 .member-description {
   display: flex;
   flex-direction: column;
-  border-radius: 10px 40px 40px 10px;
+  border-radius: 10px 20px 20px 10px;
   background-color: #a8a8a8;
   height: 50px;
-  width: 100%;
+  width: 60%;
+  scroll-padding: auto;
   padding-top: 1rem;
-  padding-bottom: 1rem;
   padding-left: 10px;
+  padding-right: 5px;
   margin-left: -4px;
   font-size: 1rem;
 }
 
 .contact-main{
   display: flex;
+  flex: 1;
   flex-direction: column;
-  margin-right: auto;
-  margin-left: auto;
   text-align: center;
+  align-items: center;
 }
 
 .contact{
@@ -154,42 +165,41 @@
 }
  
 .contact-us{
-  border-bottom: solid 1px white;
-  margin: auto;
-  margin-bottom: 5px;
+  margin-bottom: 40px;
   color: white;
 }
 
 #contactForm{
   display: flex;
   flex-direction: column;
-  padding-bottom: 5px;
-  margin: auto;
 }
 
-.mail-message  {
-  margin-top: 10px;
-  margin-bottom: 10px;
+.size-form-email{
+  width: 50rem;
+  margin-top: 50px;
+  margin-bottom: 15px;
   border-radius: 10px;
-  padding: 10px 0px 10px 5px ;
-  border: 0px;
   background-color: #a8a8a8;
   color: whitesmoke;
 }
    
-.message-contact::placeholder{
+.size-form-message{
+  width: 50rem;
+  height: 12rem;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: #a8a8a8;
   color: whitesmoke;
-}
-
-.message-contact{
-  margin-top: 5px;
 }
 
 .send {
   text-align: end;
-  margin-right: -20px;
-  padding-left: 10px;
-  padding-right: 10px;
+  margin-top: 20px;
+  margin-right: -10px;
   border-radius: 20px;
 }
 
+.button-send {
+  padding: 5px 10px;
+}

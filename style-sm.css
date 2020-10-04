@@ -12,12 +12,13 @@
 
   /* Navbar */
   header {
-    background: #787878;
-   }
+    background: radial-gradient(#787878, #555454);
+    min-height: 10vh;
+  }
 
   .navbar {
     display: flex;
-    background-color: rgb(44, 42, 42);
+    background-color: #4d4a4a;
     justify-content: flex-end;
     align-items: center;
     border-bottom-left-radius: 20px;
@@ -25,7 +26,7 @@
     /*min-height: 10vh;*/
   }
   .nav-container {
-    background-color: rgb(44, 42, 42);
+    background-color: #4d4a4a;
     flex: 1;
     display: flex;
     justify-content: flex-end;
@@ -35,7 +36,7 @@
 
   .logo {
     flex: 2;
-    background-color: rgb(44, 42, 42);
+    background-color: #4d4a4a;
     border-bottom-left-radius: 20px;
   }
 
@@ -47,7 +48,7 @@
     font-weight: normal;
     font-size: 2rem;
     color: white;
-    background-color: black;
+    background: linear-gradient(90deg, #c739ff, #8539ff);
     border-radius: 20px;
     text-align: center;
     margin: 10px;
@@ -64,7 +65,7 @@
   }
 
   #menu {
-    background-color: rgb(44, 42, 42);
+    background-color: #4d4a4a;
     border-bottom-right-radius: 20px;
   }
   .dropdown-menu-content {
@@ -75,7 +76,7 @@
     width: auto;
     border-radius: 20px;
     padding: 2rem;
-    background-color: rgb(44, 42, 42);
+    background-color: #4d4a4a;
     font-size: 1.5rem;
     list-style: none;
     color: white;
@@ -94,7 +95,7 @@
     justify-content: center;
     align-items: center;
     margin: 20px;
-    background-color: rgb(44, 42, 42);
+    background-color: #4d4a4a;
     font-size: 2.5rem;
     color: white;
     border: none;
@@ -107,7 +108,7 @@
 
   /*Main Container Styles */
   .main-container {
-    background: #787878;
+    background: radial-gradient(#787878, #555454);
     color: white;
     display: flex;
     flex-direction: column;
@@ -115,12 +116,16 @@
     min-height: 80vh;
   }
   /* Title page myfavourites*/
-  .fav-title {
-    font-family: "Rubik", sans-serif;
-    font-size: 2rem;
-    padding: 2rem;
-    text-align: right;
-    text-decoration: underline;
+  .list-my-favourites {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 1.6rem;
+    margin: 2rem 2rem;
+  }
+
+  .list-my-favourites li {
+    border-bottom: 0.3rem solid white;
   }
 
   .menu-container {
@@ -132,19 +137,23 @@
   .list {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     list-style-type: none;
-    font-size: 2rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
     margin: 2rem 0rem;
   }
   .list li {
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
   }
   .list li:nth-child(1) {
     border-bottom: 0.3rem solid white;
     padding-right: 0rem;
     padding-left: 0rem;
+  }
+
+  .list li:nth-child(2) {
+    padding-left: 1rem;
   }
 
   .article-container {
@@ -181,16 +190,37 @@
     background: #8c8b8b;
   }
 
+  .house-image {
+    background-image: url("./images/house-image.jpg");
+    background-size: cover;
+    background-position: top;
+    cursor: pointer;
+  }
+
+  .got-image {
+    background-image: url("./images/got-image.jpg");
+    background-size: cover;
+    background-position: top;
+    cursor: pointer;
+  }
+
+  .narcos-image {
+    background-image: url("./images/narcos-image.jpg");
+    background-size: cover;
+    background-position: top;
+    cursor: pointer;
+  }
+
   .favorite-logo {
     position: relative;
     bottom: 10rem;
     left: 7rem;
-    color: #7d7c7c;
+    color: rgba(255, 255, 255, 0.712);
     font-size: 1.8rem;
   }
 
   .image-description {
-    background: #787878;
+    background: rgba(199, 57, 255, 0.5);
     min-width: 10rem;
     min-height: 3rem;
     border-radius: 2rem;
@@ -223,15 +253,19 @@
     color: #787878;
   }
 
+  .star-check::before {
+    color: rgba(255, 215, 0.6);
+  }
+
   /*Footer */
 
   footer {
-    background: #787878;
+    background: radial-gradient(#787878, #555454);
   }
   .footer-container {
     width: 100vw;
     min-height: 10vh;
-    background: #41413f;
+    background: #4d4a4a;
     border-radius: 2rem 2rem 0rem 0rem;
     display: flex;
   }
@@ -259,7 +293,7 @@
   }
 
   #input-newsletter {
-    background-color: #787878;
+    background-color: rgba(120, 120, 120, 0.5);
     color: white;
     border: none;
     border-radius: 0.5rem;
@@ -274,7 +308,8 @@
     position: relative;
     bottom: 2rem;
     border: none;
-    background: #a8a8a8;
+    background: linear-gradient(90deg, #c739ff, #8539ff);
+
     color: white;
   }
   .social-container {
@@ -294,7 +329,7 @@
   /*Page-2*/
   .main-container-2 {
     min-height: 80vh;
-    background: #787878;
+    background: radial-gradient(#787878, #555454);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -310,10 +345,21 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    background-image: url("./images/house-image.jpg");
+    background-size: cover;
+    background-position: top;
+  }
+
+  .favorite-logo-page2 {
+    position: relative;
+    bottom: 13rem;
+    left: 12rem;
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 2.5rem;
   }
 
   .title-house {
-    background: #787878;
+    background: rgba(199, 57, 255, 0.5);
     min-height: 5rem;
     min-width: 50vw;
     display: flex;
@@ -338,11 +384,163 @@
     flex-wrap: wrap;
   }
 
+  .stars-container-page2 {
+    margin: 5rem 0rem 0rem 18rem;
+  }
+
+  .stars-container-page2 i {
+    color: #787878;
+  }
+
   .text-container-house {
     width: 70vw;
     height: 15rem;
     font-size: 1.6rem;
     color: white;
+  }
+  /*Page 3 */
+  .main-container-3 {
+    min-height: 80vh;
+    background: radial-gradient(#787878, #555454);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container-got {
+    min-height: 25rem;
+    min-width: 80vw;
+    background: #8c8b8b;
+    border-radius: 2rem 2rem 0rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url("./images/got-image.jpg");
+    background-size: cover;
+    background-position: top;
+  }
+
+  .favorite-logo-page3 {
+    position: relative;
+    bottom: 13rem;
+    left: 12rem;
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 2.5rem;
+  }
+
+  .title-got {
+    background: rgba(199, 57, 255, 0.5);
+    min-height: 5rem;
+    min-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+
+  .description-container-got {
+    min-height: 25rem;
+    min-width: 80vw;
+    background: #a8a8a8;
+    border-radius: 0rem 0rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .text-container-got {
+    width: 70vw;
+    height: 15rem;
+    font-size: 1.6rem;
+    color: white;
+  }
+
+  .stars-container-page3 {
+    margin: 5rem 0rem 0rem 18rem;
+  }
+
+  .stars-container-page3 i {
+    color: #787878;
+  }
+  /*Page 4 */
+  .main-container-4 {
+    min-height: 80vh;
+    background: radial-gradient(#787878, #555454);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container-narcos {
+    min-height: 25rem;
+    min-width: 80vw;
+    background: #8c8b8b;
+    border-radius: 2rem 2rem 0rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url("./images/narcos-image.jpg");
+    background-size: cover;
+    background-position: top;
+  }
+
+  .favorite-logo-page4 {
+    position: relative;
+    bottom: 13rem;
+    left: 12rem;
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 2.5rem;
+  }
+
+  .title-narcos {
+    background: rgba(199, 57, 255, 0.5);
+    min-height: 5rem;
+    min-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+
+  .description-container-narcos {
+    min-height: 25rem;
+    min-width: 80vw;
+    background: #a8a8a8;
+    border-radius: 0rem 0rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .text-container-narcos {
+    width: 70vw;
+    height: 15rem;
+    font-size: 1.6rem;
+    color: white;
+  }
+
+  .stars-container-page4 {
+    margin: 5rem 0rem 0rem 18rem;
+  }
+
+  .stars-container-page4 i {
+    color: #787878;
   }
 }
 
@@ -350,7 +548,7 @@
 
 .main-container-team {
   margin: auto;
-  background-color: #787878;
+  background: radial-gradient(#787878, #555454);
   min-width: 100vw;
   min-height: 85vh;
 }
