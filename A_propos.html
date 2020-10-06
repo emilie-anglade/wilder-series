@@ -37,13 +37,21 @@
         <div class="nav-container">
           <div class="search-container">
             <form id="search-form" action="/#">
-              <input type="text" placeholder="Search.." name="search" />
+              <input
+                id="input-search"
+                type="text"
+                placeholder="Search..."
+                name="search"
+              />
+              <button type="submit" class="searchButton">
+                <i class="fa fa-search"></i>
+              </button>
             </form>
           </div>
           <div class="research">
             <i class="fas fa-search"></i>
           </div>
-          <ul id="menu">
+          <div class="menu">
             <button class="nav-toggle">
               <i class="fas fa-bars"></i>
             </button>
@@ -52,7 +60,7 @@
               <li><a href="favourites.html">FAVOURITES</a></li>
               <li><a href="A_propos.html">CONTACT US</a></li>
             </div>
-          </ul>
+          </div>
         </div>
       </nav>
     </header>
@@ -134,15 +142,29 @@
     </main>
     <footer>
       <div class="footer-container">
+        <div class="lg-notices">
+          <h2><a href="A_propos.html">CONTACT US</a></h2>
+          <h2>LEGAL NOTICES</h2>
+        </div>
         <div class="newsletter-container">
+          <div class="newsletter-title">
+            <h2 class="newsletter-sm">NEWSLETTER</h2>
+            <h2 class="newsletter-lg">SUBSCRIBE TO OUR NEWSLETTER</h2>
+          </div>
           <div class="box-newsletter">
-            <h2>NEWSLETTER</h2>
-            <input type="email" id="input-newsletter" name="input-newsletter" />
+            <input
+              type="email"
+              id="input-newsletter"
+              name="input-newsletter"
+              placeholder="Enter your email"
+              ;
+            />
             <button type="submit">Ok</button>
           </div>
         </div>
         <div class="social-container">
           <div class="social-logo">
+            <h2 class="social-title">FOLLOW US</h2>
             <i class="fab fa-facebook"></i>
             <i class="fab fa-instagram"></i>
             <i class="fab fa-twitter"></i>
