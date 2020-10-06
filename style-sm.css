@@ -155,6 +155,10 @@
   }
 
   /*Main Container Styles */
+  .heart.like {
+    color: #c739ff;
+  }
+
   .main-container {
     background: radial-gradient(#787878, #555454);
     color: white;
