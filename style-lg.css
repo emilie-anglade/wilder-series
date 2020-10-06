@@ -12,7 +12,7 @@
 
   /* Navbar */
   header {
-    background: radial-gradient(#787878, #555454);
+    background-color: #4d4a4a;
     min-height: 10vh;
     min-width: 100vw;
   }
