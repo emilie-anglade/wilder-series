@@ -266,6 +266,11 @@
     color: red;
   }
 
+  .link-page.active {
+    pointer-events: none;
+    display: none;
+  }
+
   .image-description {
     background: rgba(199, 57, 255, 0.5);
     min-width: 10rem;

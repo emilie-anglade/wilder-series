@@ -2,7 +2,6 @@
 const button = document.querySelector(".nav-toggle");
 const borderRadius = document.querySelector(".navbar");
 const favoriteLogo = document.querySelector(".favorite-logo");
-const imageContainer = document.querySelector("link-page");
 
 //ADD EVENTS LISTENERS
 button.addEventListener("click", function () {
@@ -12,8 +11,9 @@ button.addEventListener("click", function () {
 });
 
 const favoriteButton = () => {
+  const imageContainer = document.querySelector("#house-heart");
   favoriteLogo.addEventListener("click", (event) => {
-    imageContainer.removeAttribute("href");
+    imageContainer.removeAttribute("house-heart");
     event.target.style.color = "red";
   });
 };
