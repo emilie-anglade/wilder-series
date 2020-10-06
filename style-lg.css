@@ -105,6 +105,7 @@
     color: white;
   }
   .dropdown-menu-content li a:hover {
+    transition: all 1s ease-out;
     color: #c739ff;
     font-size: 1.65rem;
   }
