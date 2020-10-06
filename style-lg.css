@@ -119,6 +119,10 @@
   }
 
   /*Main Container Styles */
+
+  .heart.like {
+    color: #c739ff;
+  }
   .main-container {
     background: radial-gradient(#787878, #555454);
     color: white;
@@ -419,57 +423,293 @@
     margin: 0 1rem;
   }
 
-  /*Page-2*/
+  /*Page 2 */
+
   .main-container-2 {
     min-height: 80vh;
-    background: #787878;
+    background: radial-gradient(#787878, #555454);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
   }
+  .button-return {
+    display: none;
+  }
 
   .image-container-house {
-    min-height: 25rem;
-    min-width: 80vw;
-    background: #8c8b8b;
-    border-radius: 2rem 2rem 0rem 0rem;
+    min-height: 65rem;
+    min-width: 40vw;
+    border-radius: 2rem 2rem 2rem 2rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    background-image: url("./images/house-image.jpg");
+    background-size: cover;
+    background-position: top;
+    position: relative;
+  }
+
+  .favorite-logo-page2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 2rem;
+    right: 3rem;
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 2rem;
+  }
+
+  .favorite-logo-page2 i {
+    margin-bottom: 1rem;
   }
 
   .title-house {
-    background: #787878;
-    min-height: 5rem;
-    min-width: 50vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    border-radius: 2rem;
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
+    display: none;
   }
 
   .description-container-house {
-    min-height: 25rem;
-    min-width: 80vw;
+    min-height: 60rem;
+    min-width: 40vw;
     background: #a8a8a8;
-    border-radius: 0rem 0rem 2rem 2rem;
+    border-radius: 0rem 2rem 2rem 0rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
 
   .text-container-house {
-    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25vw;
     height: 15rem;
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: white;
+  }
+
+  .container-community {
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .button-watch-house {
+    padding: 2rem 5rem;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    background: #4d4a4a;
+    cursor: pointer;
+  }
+
+  .stars-container-page2 {
+    margin: 5rem 0rem 0rem 5rem;
+    flex-wrap: nowrap;
+  }
+
+  .stars-container-page2 i {
+    color: #787878;
+  }
+
+  .star-check::before {
+    color: rgba(255, 215, 0.6);
+  }
+
+  /*Page 3 */
+
+  .main-container-3 {
+    min-height: 80vh;
+    background: radial-gradient(#787878, #555454);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-return {
+    display: none;
+  }
+
+  .image-container-got {
+    min-height: 65rem;
+    min-width: 40vw;
+    border-radius: 2rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url("./images/got-image.jpg");
+    background-size: cover;
+    background-position: top;
+    position: relative;
+  }
+
+  .favorite-logo-page3 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 2rem;
+    right: 3rem;
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 2rem;
+  }
+
+  .favorite-logo-page3 i {
+    margin-bottom: 1rem;
+  }
+
+  .title-got {
+    display: none;
+  }
+
+  .description-container-got {
+    min-height: 60rem;
+    min-width: 40vw;
+    background: #a8a8a8;
+    border-radius: 0rem 2rem 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .text-container-got {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25vw;
+    height: 15rem;
+    font-size: 2rem;
+    color: white;
+  }
+
+  .container-community-got {
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .button-watch-got {
+    padding: 2rem 5rem;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    background: #4d4a4a;
+    cursor: pointer;
+  }
+
+  .stars-container-page3 {
+    margin: 5rem 0rem 0rem 5rem;
+    flex-wrap: nowrap;
+  }
+
+  .stars-container-page3 i {
+    color: #787878;
+  }
+
+  .star-check::before {
+    color: rgba(255, 215, 0.6);
+  }
+
+  /*Page 4 */
+  .main-container-4 {
+    min-height: 80vh;
+    background: radial-gradient(#787878, #555454);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-return {
+    display: none;
+  }
+
+  .image-container-narcos {
+    min-height: 65rem;
+    min-width: 40vw;
+    border-radius: 2rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url("./images/narcos-image.jpg");
+    background-size: cover;
+    background-position: top;
+    position: relative;
+  }
+
+  .favorite-logo-page4 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 2rem;
+    right: 3rem;
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 2rem;
+  }
+
+  .favorite-logo-page4 i {
+    margin-bottom: 1rem;
+  }
+
+  .title-narcos {
+    display: none;
+  }
+
+  .description-container-narcos {
+    min-height: 60rem;
+    min-width: 40vw;
+    background: #a8a8a8;
+    border-radius: 0rem 2rem 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .text-container-narcos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25vw;
+    height: 15rem;
+    font-size: 2rem;
+    color: white;
+  }
+
+  .container-community-narcos {
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .button-watch-narcos {
+    padding: 2rem 5rem;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    background: #4d4a4a;
+    cursor: pointer;
+  }
+
+  .stars-container-page4 {
+    margin: 5rem 0rem 0rem 5rem;
+    flex-wrap: nowrap;
+  }
+
+  .stars-container-page4 i {
+    color: #787878;
+  }
+
+  .star-check::before {
+    color: rgba(255, 215, 0.6);
   }
 }
