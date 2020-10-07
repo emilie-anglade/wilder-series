@@ -406,6 +406,7 @@
   color: white;
   align-items: baseline;
   padding-top: 60px;
+  padding-bottom: 150px;
 }
 
 .team-container-members{
@@ -450,12 +451,9 @@
   background-color: #a8a8a8;
   height: 50px;
   width: 60%;
-  scroll-padding: auto;
-  padding-top: 1rem;
-  padding-left: 10px;
-  padding-right: 5px;
+  padding: 1rem 5px 70px 10px;
   margin-left: -4px;
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 
 .contact-main{
@@ -466,12 +464,6 @@
   align-items: center;
 }
 
-.contact{
-  display: flex;
-  background-color: grey;
-  justify-content: center;
-}
- 
 .contact-us {
   padding-top: 25px;
   text-align: center;
@@ -480,22 +472,34 @@
   margin-bottom: 40px;
 }
 
-
 #contactForm{
   display: flex;
   flex-direction: column;
 }
 
-.size-form-email{
+.size-form-email-lg{
   width: 50rem;
+  height: 5rem;
   margin-top: 50px;
   margin-bottom: 15px;
-  border-radius: 10px;
+  border-radius: 30px;
   background-color: #a8a8a8;
   color: whitesmoke;
 }
-   
-.size-form-message{
+
+.mail-contactForm-lg{
+  margin-top: 15px;
+  padding-right: 300px;
+  border: 0px;
+  background-color: #a8a8a8;
+  font-size: larger;
+}
+
+#enter-mail::placeholder {
+  color: white;
+}
+
+.size-form-message-lg{
   width: 50rem;
   height: 12rem;
   margin-top: 10px;
@@ -503,6 +507,21 @@
   border-radius: 10px;
   background-color: #a8a8a8;
   color: whitesmoke;
+}
+
+.mail-messageForm-lg{
+  margin-top: 15px;
+  margin-left: -310px;
+  margin-right: -310px;
+  padding-right: 300px;
+  padding-bottom: 60px;
+  border:0px;
+  background-color: #a8a8a8;
+  font-size: medium;
+}
+
+.mail-messageForm-lg::placeholder{
+  color: white;
 }
 
 .send {

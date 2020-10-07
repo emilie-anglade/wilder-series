@@ -594,7 +594,7 @@
   margin: auto;
   background: radial-gradient(#787878, #555454);
   min-width: 100vw;
-  min-height: 85vh;
+  min-height: 80vh;
 }
 
 .team {
@@ -630,50 +630,40 @@
   flex-direction: column;
   border-radius: 10px 40px 40px 10px;
   background-color: #a8a8a8;
-  height: 50px;
+  height: 70px;
   width: 100%;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 10px;
+  padding: 1rem 50px 1rem 10px;
   margin-left: -4px;
-  font-size: 1Rem;
+  font-size: 1.2Rem;
+  color: white;
 }
 
 .contact-main {
   display: flex;
+  flex: 1;
   flex-direction: column;
-  margin-right: auto;
-  margin-left: auto;
+  align-items: center;
   text-align: center;
-}
-
-.contact {
-  display: flex;
-  background-color: grey;
-  justify-content: center;
+  white-space: pre-wrap;
 }
 
 .contact-us {
-  border-bottom: solid 1px white;
-  margin: auto;
-  margin-bottom: 5px;
-  color: white;
+  padding-top: 25px;
+  text-align: center;
+  color : white;
+  flex-direction: column;
+  margin-bottom: 20px;
 }
 
 #contactForm {
   display: flex;
   flex-direction: column;
-  padding-bottom: 5px;
-  margin: auto;
 }
 
-.mail-message {
-  margin-top: 10px;
-  margin-bottom: 10px;
+.size-form-email-sm {
   border-radius: 10px;
-  padding: 10px 0px 10px 5px;
-  border: 0px;
   background-color: #a8a8a8;
+  margin-bottom: 15px;
   color: whitesmoke;
 }
 
@@ -683,6 +673,33 @@
 
 .message-contact {
   margin-top: 5px;
+}
+
+.size-form-message-sm{
+  height: 12rem;
+  border-radius: 10px;
+  background-color: #a8a8a8;
+  color: whitesmoke;
+}
+
+.mail-messageForm-sm{
+  background-color: #a8a8a8;
+  border: 0px;
+}
+
+.mail-messageForm-sm::placeholder{
+  color: white;
+}
+
+.mail-contactForm-sm{
+  margin-top: -5px;
+  border: 0px;
+  background-color: #a8a8a8;
+  
+}
+
+#enter-mail::placeholder{
+  color: white;
 }
 
 .send {
