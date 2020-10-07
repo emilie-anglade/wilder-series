@@ -263,6 +263,13 @@
     cursor: pointer;
   }
 
+  .lucifer-image {
+    background-image: url("./images/lucifer-image.jpg");
+    background-size: cover;
+    background-position: top;
+    cursor: pointer;
+  }
+
   .favorite-logo {
     position: relative;
     z-index: 1;
@@ -692,6 +699,100 @@
   }
 
   .stars-container-page4 i {
+    color: #787878;
+  }
+
+  /*Page 5 */
+  .main-container-5 {
+    min-height: 80vh;
+    background: radial-gradient(#787878, #555454);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container-lucifer {
+    min-height: 25rem;
+    min-width: 80vw;
+    background: #8c8b8b;
+    border-radius: 2rem 2rem 0rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url("./images/lucifer-image.jpg");
+    background-size: cover;
+    background-position: top;
+  }
+
+  .favorite-logo-page5 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 10rem;
+    left: 13rem;
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 2rem;
+  }
+
+  .favorite-logo-page5 i {
+    margin-bottom: 1rem;
+  }
+
+  .title-lucifer {
+    background: rgba(199, 57, 255, 0.5);
+    min-height: 5rem;
+    min-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+
+  .description-container-lucifer {
+    min-height: 25rem;
+    min-width: 80vw;
+    background: #a8a8a8;
+    border-radius: 0rem 0rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .text-container-lucifer {
+    width: 70vw;
+    height: 15rem;
+    font-size: 1.6rem;
+    color: white;
+  }
+
+  .container-community-lucifer {
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+
+  .button-watch-lucifer {
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    background: #4d4a4a;
+  }
+
+  .stars-container-page5 {
+    margin: 5rem 0rem 0rem 12rem;
+  }
+
+  .stars-container-page5 i {
     color: #787878;
   }
 
