@@ -12,6 +12,7 @@
     color: white;
     font-family: "Rubik", sans serif;
   }
+
   /* header */
 
   header {
@@ -46,6 +47,11 @@
     text-align: center;
     margin: 10px;
     padding: 1rem 0rem;
+  }
+
+  .link-page {
+    text-decoration: none;
+    color: white;
   }
 
   .nav-container {
@@ -120,18 +126,45 @@
     display: block;
   }
 
+  /* Main container */
+
   .main-container {
     background: #787878;
     color: white;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     min-width: 100vw;
     min-height: 80vh;
+  }
+
+  /* Title page myfavourites*/
+  .menu-container {
+    flex: 1;
+    display: flex;
+    width: -moz-available;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2rem;
+  }
+  .list-my-favourites {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 1.8rem;
+    margin: 2rem 2rem;
+  }
+
+  .list-my-favourites li {
+    border-bottom: 0.3rem solid white;
   }
 
   /* cards */
 
   .card-list {
+    flex: 2;
     display: flex;
     padding: 3rem;
     overflow-x: scroll;
