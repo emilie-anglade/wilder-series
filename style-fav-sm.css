@@ -155,9 +155,10 @@
   }
 
   /*Main Container Styles */
-  .heart.like {
+
+  /*.heart.like {
     color: #c739ff;
-  }
+  }*/
 
   .main-container {
     background: radial-gradient(#787878, #555454);
@@ -254,7 +255,7 @@
     cursor: pointer;
   }
 
-  .favorite-logo-favourite {
+  .fav-logo {
     position: relative;
     bottom: 16rem;
     left: 10rem;

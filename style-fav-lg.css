@@ -197,12 +197,12 @@
     flex-direction: column;
     height: 400px;
     width: 400px;
-
     border-radius: 2rem;
     background: radial-gradient(#787878, #555454);
     box-shadow: -1rem 1.5rem 2.5rem black;
-
     transition: 0.2s;
+    justify-content: center;
+    align-items: center;
   }
 
   .card:hover {
@@ -211,14 +211,6 @@
 
   .card:not(:first-child) {
     margin-left: -60px;
-  }
-
-  .card-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 2rem;
-    background: radial-gradient(#787878, #555454);
   }
 
   .image-fav-house {

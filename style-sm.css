@@ -114,7 +114,6 @@
   .dropdown-menu-content li {
     margin: 6rem 0rem;
     font-size: 3rem;
-    /* text-align: center; */
   }
 
   .dropdown-menu-content li a {
@@ -166,18 +165,6 @@
     flex-direction: column;
     min-width: 100vw;
     min-height: 80vh;
-  }
-  /* Title page myfavourites*/
-  .list-my-favourites {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    font-size: 1.6rem;
-    margin: 2rem 2rem;
-  }
-
-  .list-my-favourites li {
-    border-bottom: 0.3rem solid white;
   }
 
   .menu-container {
@@ -693,31 +680,6 @@
 
   .stars-container-page4 i {
     color: #787878;
-  }
-
-  /*Favourites Page*/
-  .image-container-favourite {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    min-width: 25rem;
-    min-height: 25rem;
-    border-radius: 2rem;
-    background: #8c8b8b;
-  }
-  .house-image-favourite {
-    background-image: url("./images/house-image.jpg");
-    background-size: cover;
-    background-position: top;
-    cursor: pointer;
-  }
-  .favorite-logo-favourite {
-    position: relative;
-    bottom: 16rem;
-    left: 10rem;
-    color: rgba(255, 255, 255, 0.712);
-    font-size: 1.8rem;
   }
 
   /*CSS A_propos*/
