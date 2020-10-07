@@ -114,7 +114,6 @@
   .dropdown-menu-content li {
     margin: 6rem 0rem;
     font-size: 3rem;
-    /* text-align: center; */
   }
 
   .dropdown-menu-content li a {
@@ -166,18 +165,6 @@
     flex-direction: column;
     min-width: 100vw;
     min-height: 80vh;
-  }
-  /* Title page myfavourites*/
-  .list-my-favourites {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    font-size: 1.6rem;
-    margin: 2rem 2rem;
-  }
-
-  .list-my-favourites li {
-    border-bottom: 0.3rem solid white;
   }
 
   .menu-container {
@@ -796,118 +783,93 @@
     color: #787878;
   }
 
-  /*Favourites Page*/
-  .image-container-favourite {
+  /*CSS A_propos*/
+
+  .team {
+    padding-top: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+  }
+
+  .main-container-team {
+    margin: auto;
+    background-color: #787878;
+  }
+
+  .container-members {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    justify-content: space-between;
+  }
+
+  .member-photo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0 20px 0;
+  }
+
+  .flag-icon {
+    border-radius: 50px;
+  }
+
+  .member-description {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    min-width: 25rem;
-    min-height: 25rem;
-    border-radius: 2rem;
-    background: #8c8b8b;
+    border-radius: 0px 40px 40px 0px;
+    background-color: #a8a8a8;
+    height: 20px;
+    width: 100%;
+    padding-top: 5px;
   }
-  .house-image-favourite {
-    background-image: url("./images/house-image.jpg");
-    background-size: cover;
-    background-position: top;
-    cursor: pointer;
+
+  .contact {
+    display: flex;
+    background-color: grey;
+    justify-content: center;
   }
-  .favorite-logo-favourite {
-    position: relative;
-    bottom: 16rem;
-    left: 10rem;
-    color: rgba(255, 255, 255, 0.712);
-    font-size: 1.8rem;
+
+  .contact-main {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
   }
-}
 
-/*CSS A_propos*/
+  .contact-us {
+    border-bottom: solid 1px white;
+    margin: auto;
+    margin-bottom: 5px;
 
-.team {
-  padding-top: 10px;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  color: white;
-}
+    color: white;
+  }
 
-.main-container-team {
-  margin: auto;
-  background-color: #787878;
-}
+  .mail-message {
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px 0px 10px 5px;
+    background-color: #a8a8a8;
+    color: whitesmoke;
+  }
 
-.container-members {
-  padding-left: 20px;
-  padding-right: 20px;
+  .message-contact::placeholder {
+    color: whitesmoke;
+  }
 
-  justify-content: space-between;
-}
+  .message-contact {
+    margin-top: 5px;
+  }
 
-.member-photo {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin: 20px 0 20px 0;
-}
+  .send {
+    text-align: end;
+    margin-right: 30px;
+  }
 
-.flag-icon {
-  border-radius: 50px;
-}
-
-.member-description {
-  display: flex;
-  flex-direction: column;
-  border-radius: 0px 40px 40px 0px;
-  background-color: #a8a8a8;
-  height: 20px;
-  width: 100%;
-  padding-top: 5px;
-}
-
-.contact {
-  display: flex;
-  background-color: grey;
-  justify-content: center;
-}
-
-.contact-main {
-  display: flex;
-  flex-direction: column;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-}
-
-.contact-us {
-  border-bottom: solid 1px white;
-  margin: auto;
-  margin-bottom: 5px;
-
-  color: white;
-}
-
-.mail-message {
-  margin-top: 10px;
-  border-radius: 10px;
-  padding: 10px 0px 10px 5px;
-  background-color: #a8a8a8;
-  color: whitesmoke;
-}
-
-.message-contact::placeholder {
-  color: whitesmoke;
-}
-
-.message-contact {
-  margin-top: 5px;
-}
-
-.send {
-  text-align: end;
-  margin-right: 30px;
-}
-
-#contactForm {
-  padding-bottom: 10px;
+  #contactForm {
+    padding-bottom: 10px;
+  }
 }
