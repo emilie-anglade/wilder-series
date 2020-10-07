@@ -12,7 +12,7 @@
 
   /* Navbar */
   header {
-    background: radial-gradient(#787878, #555454);
+    background-color: #4d4a4a;
     min-height: 10vh;
     min-width: 100vw;
   }
@@ -121,8 +121,12 @@
 
 
   /*Main Container Styles */
+
+  .heart.like {
+    color: #c739ff;
+  }
   .main-container {
-    background: #787878;
+    background: radial-gradient(#787878, #555454);
     color: white;
     display: flex;
     flex-direction: column;
@@ -130,12 +134,16 @@
     min-height: 80vh;
   }
   /* Title page myfavourites*/
-  .fav-title {
-    font-family: "Rubik", sans-serif;
-    font-size: 2rem;
-    padding: 2rem;
-    text-align: right;
-    text-decoration: underline;
+  .list-my-favourites {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 1.6rem;
+    margin: 2rem 2rem;
+  }
+
+  .list-my-favourites li {
+    border-bottom: 0.3rem solid white;
   }
 
   .menu-container {
@@ -147,14 +155,14 @@
   .list {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     list-style-type: none;
-    font-size: 2rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
     margin: 2rem 0rem;
   }
   .list li {
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
   }
   .list li:nth-child(1) {
     border-bottom: 0.3rem solid white;
@@ -162,22 +170,38 @@
     padding-left: 0rem;
   }
 
+  .list li:nth-child(2) {
+    padding-left: 1rem;
+  }
+
   .article-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    /*display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap;*/
   }
 
   .article {
     display: flex;
+    min-width: 40vw;
+    min-height: 20vw;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    /*display: flex;
     align-items: center;
     justify-content: center;
     min-width: 90vw;
     min-height: 25vh;
     margin: 1rem 2rem;
-    position: relative;
+    position: relative;*/
   }
 
   .link-page {
@@ -190,22 +214,68 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    width: auto;
+    height: auto;
+    min-width: 30rem;
+    min-height: 30rem;
+    border-radius: 2rem;
+    background: #8c8b8b;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
     min-width: 18rem;
     min-height: 18rem;
     border-radius: 2rem;
-    background: #8c8b8b;
+    background: #8c8b8b;*/
+  }
+
+  .house-image {
+    background-image: url("./images/house-image.jpg");
+    background-size: cover;
+    background-position: top;
+    cursor: pointer;
+  }
+
+  .got-image {
+    background-image: url("./images/got-image.jpg");
+    background-size: cover;
+    background-position: top;
+    cursor: pointer;
+  }
+
+  .narcos-image {
+    background-image: url("./images/narcos-image.jpg");
+    background-size: cover;
+    background-position: top;
+    cursor: pointer;
   }
 
   .favorite-logo {
     position: relative;
-    bottom: 10rem;
-    left: 7rem;
-    color: #7d7c7c;
-    font-size: 1.8rem;
+    z-index: 1;
+    bottom: 21rem;
+    left: 12rem;
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .favorite-logo:hover {
+    color: red;
+  }
+
+  .favorite-logo.like {
+    color: red;
+  }
+
+  .link-page.active {
+    pointer-events: none;
+    display: none;
   }
 
   .image-description {
-    background: #787878;
+    background: rgba(199, 57, 255, 0.5);
     min-width: 10rem;
     min-height: 3rem;
     border-radius: 2rem;
@@ -216,10 +286,20 @@
   }
 
   .image-description p {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
+    margin: 0rem 0.5rem;
   }
   .text-container {
     background: #a8a8a8;
+    height: 25rem;
+    width: 40rem;
+    border-radius: 0rem 2rem 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /*background: #a8a8a8;
     min-width: 40vw;
     min-height: 15rem;
     border-radius: 0rem 2rem 2rem 0rem;
@@ -227,7 +307,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
   }
   .text-container p {
     width: 90%;
@@ -236,6 +316,10 @@
 
   .stars-container i {
     color: #787878;
+  }
+
+  .star-check::before {
+    color: rgba(255, 215, 0.6);
   }
 
   /*Footer */
@@ -341,58 +425,294 @@
     margin: 0 1rem;
   }
 
-  /*Page-2*/
+  /*Page 2 */
+
   .main-container-2 {
     min-height: 80vh;
-    background: #787878;
+    background: radial-gradient(#787878, #555454);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
   }
+  .button-return {
+    display: none;
+  }
 
   .image-container-house {
-    min-height: 25rem;
-    min-width: 80vw;
-    background: #8c8b8b;
-    border-radius: 2rem 2rem 0rem 0rem;
+    min-height: 65rem;
+    min-width: 40vw;
+    border-radius: 2rem 2rem 2rem 2rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    background-image: url("./images/house-image.jpg");
+    background-size: cover;
+    background-position: top;
+    position: relative;
+  }
+
+  .favorite-logo-page2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 2rem;
+    right: 3rem;
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 2rem;
+  }
+
+  .favorite-logo-page2 i {
+    margin-bottom: 1rem;
   }
 
   .title-house {
-    background: #787878;
-    min-height: 5rem;
-    min-width: 50vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    border-radius: 2rem;
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
+    display: none;
   }
 
   .description-container-house {
-    min-height: 25rem;
-    min-width: 80vw;
+    min-height: 60rem;
+    min-width: 40vw;
     background: #a8a8a8;
-    border-radius: 0rem 0rem 2rem 2rem;
+    border-radius: 0rem 2rem 2rem 0rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
 
   .text-container-house {
-    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25vw;
     height: 15rem;
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: white;
+  }
+
+  .container-community {
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .button-watch-house {
+    padding: 2rem 5rem;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    background: #4d4a4a;
+    cursor: pointer;
+  }
+
+  .stars-container-page2 {
+    margin: 5rem 0rem 0rem 5rem;
+    flex-wrap: nowrap;
+  }
+
+  .stars-container-page2 i {
+    color: #787878;
+  }
+
+  .star-check::before {
+    color: rgba(255, 215, 0.6);
+  }
+
+  /*Page 3 */
+
+  .main-container-3 {
+    min-height: 80vh;
+    background: radial-gradient(#787878, #555454);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-return {
+    display: none;
+  }
+
+  .image-container-got {
+    min-height: 65rem;
+    min-width: 40vw;
+    border-radius: 2rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url("./images/got-image.jpg");
+    background-size: cover;
+    background-position: top;
+    position: relative;
+  }
+
+  .favorite-logo-page3 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 2rem;
+    right: 3rem;
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 2rem;
+  }
+
+  .favorite-logo-page3 i {
+    margin-bottom: 1rem;
+  }
+
+  .title-got {
+    display: none;
+  }
+
+  .description-container-got {
+    min-height: 60rem;
+    min-width: 40vw;
+    background: #a8a8a8;
+    border-radius: 0rem 2rem 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .text-container-got {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25vw;
+    height: 15rem;
+    font-size: 2rem;
+    color: white;
+  }
+
+  .container-community-got {
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .button-watch-got {
+    padding: 2rem 5rem;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    background: #4d4a4a;
+    cursor: pointer;
+  }
+
+  .stars-container-page3 {
+    margin: 5rem 0rem 0rem 5rem;
+    flex-wrap: nowrap;
+  }
+
+  .stars-container-page3 i {
+    color: #787878;
+  }
+
+  .star-check::before {
+    color: rgba(255, 215, 0.6);
+  }
+
+  /*Page 4 */
+  .main-container-4 {
+    min-height: 80vh;
+    background: radial-gradient(#787878, #555454);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-return {
+    display: none;
+  }
+
+  .image-container-narcos {
+    min-height: 65rem;
+    min-width: 40vw;
+    border-radius: 2rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url("./images/narcos-image.jpg");
+    background-size: cover;
+    background-position: top;
+    position: relative;
+  }
+
+  .favorite-logo-page4 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 2rem;
+    right: 3rem;
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 2rem;
+  }
+
+  .favorite-logo-page4 i {
+    margin-bottom: 1rem;
+  }
+
+  .title-narcos {
+    display: none;
+  }
+
+  .description-container-narcos {
+    min-height: 60rem;
+    min-width: 40vw;
+    background: #a8a8a8;
+    border-radius: 0rem 2rem 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .text-container-narcos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25vw;
+    height: 15rem;
+    font-size: 2rem;
+    color: white;
+  }
+
+  .container-community-narcos {
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .button-watch-narcos {
+    padding: 2rem 5rem;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    background: #4d4a4a;
+    cursor: pointer;
+  }
+
+  .stars-container-page4 {
+    margin: 5rem 0rem 0rem 5rem;
+    flex-wrap: nowrap;
+  }
+
+  .stars-container-page4 i {
+    color: #787878;
+  }
+
+  .star-check::before {
+    color: rgba(255, 215, 0.6);
   }
 
 /*CSS A_propos lg*/
@@ -488,7 +808,6 @@
 }
 
 .mail-contactForm-lg{
-  margin-top: 15px;
   padding-right: 300px;
   border: 0px;
   background-color: #a8a8a8;
@@ -510,7 +829,6 @@
 }
 
 .mail-messageForm-lg{
-  margin-top: 15px;
   margin-left: -310px;
   margin-right: -310px;
   padding-right: 300px;

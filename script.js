@@ -1,13 +1,16 @@
-let button = document.querySelector(".nav-toggle");
+//SELECTORS
+const button = document.querySelector(".nav-toggle");
+const borderRadius = document.querySelector(".navbar");
+const favoriteLogo = document.querySelector(".favorite-logo");
+const logoHeart = document.querySelector(".heart");
 
-let search = document.querySelector(".research");
-
+//ADD EVENTS LISTENERS
 button.addEventListener("click", function () {
   let list = document.querySelector(".dropdown-menu-content");
   list.classList.toggle("visible");
+  borderRadius.classList.toggle("open");
 });
 
-search.addEventListener("click", function () {
-  let searchbar = document.querySelector(".search-container");
-  searchbar.classList.toggle("visible");
+logoHeart.addEventListener("click", (event) => {
+  event.target.classList.toggle("like") = "#c739ff";
 });
