@@ -8,7 +8,6 @@
   body {
     padding: 0;
     margin: 0;
-    background-color: teal;
     color: white;
     font-family: "Rubik", sans serif;
   }
@@ -16,7 +15,7 @@
   /* header */
 
   header {
-    background: radial-gradient(#787878, #555454);
+    background: #4d4a4a;
     min-height: 10vh;
     min-width: 100vw;
   }
@@ -199,7 +198,7 @@
     width: 400px;
     border-radius: 2rem;
     background: radial-gradient(#787878, #555454);
-    box-shadow: -1rem 1.5rem 2.5rem black;
+    box-shadow: -1rem 1.5rem 1.8rem black;
     transition: 0.2s;
     justify-content: center;
     align-items: center;
