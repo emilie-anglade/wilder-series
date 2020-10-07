@@ -221,14 +221,25 @@
     height: 35vh;
     border-radius: 2rem;
     background: #8c8b8b;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    min-width: 18rem;
-    min-height: 18rem;
-    border-radius: 2rem;
-    background: #8c8b8b;*/
+    position: relative;
+  }
+
+  .favorite-logo {
+    position: absolute;
+    z-index: 1;
+    top: 2rem;
+    right: 3rem;
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .favorite-logo:hover {
+    color: #c739ff;
+  }
+
+  .favorite-logo.like {
+    color: #c739ff;
   }
 
   .house-image {
@@ -257,24 +268,6 @@
     background-size: cover;
     background-position: top;
     cursor: pointer;
-  }
-
-  .favorite-logo {
-    position: relative;
-    z-index: 1;
-    bottom: 21rem;
-    left: 12rem;
-    color: rgba(255, 255, 255, 0.712);
-    font-size: 2rem;
-    cursor: pointer;
-  }
-
-  .favorite-logo:hover {
-    color: red;
-  }
-
-  .favorite-logo.like {
-    color: red;
   }
 
   .link-page.active {
