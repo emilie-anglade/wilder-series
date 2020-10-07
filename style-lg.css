@@ -69,22 +69,24 @@
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
   }
+  #search-form {
+    position: relative;
+  }
+  .searchButton {
+    position: relative;
+    right: 2.7rem;
+    width: auto;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border: none;
+    background-color: rgba(120, 120, 120, 0);
+    color: white;
+  }
 
   .search-container input::placeholder {
     font-family: "Rubik", sans-serif;
     font-size: 1.5rem;
   }
-
-  .searchButton {
-    margin-left: -2rem;
-    width: auto;
-    border-radius: 0.5rem;
-    padding: 0.5rem;
-    border: none;
-    background: linear-gradient(90deg, #c739ff, #8539ff);
-    color: white;
-  }
-
   .dropdown-menu-content {
     display: flex;
     justify-content: flex-end;
@@ -175,9 +177,8 @@
   .article-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    gap: 4rem;
+    margin: 2rem;
 
     /*display: flex;
     flex-direction: column;
@@ -392,13 +393,14 @@
   }
 
   .box-newsletter button {
+    position: relative;
     width: auto;
     border-radius: 0.5rem;
     padding: 0.5rem;
     border: none;
-    background: linear-gradient(90deg, #c739ff, #8539ff);
-
+    background-color: rgba(185, 185, 185, 0.5);
     color: white;
+    right: 2.7rem;
   }
   .social-container {
     display: flex;
