@@ -164,11 +164,10 @@
     flex-direction: column;
     height: 400px;
     width: 400px;
-    min-width: 250px;
 
     border-radius: 2rem;
     background: radial-gradient(#787878, #555454);
-    /*box-shadow: -2rem 0 3rem #000;*/
+    box-shadow: -1rem 1.5rem 2.5rem black;
 
     transition: 0.2s;
   }
