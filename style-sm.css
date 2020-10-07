@@ -77,37 +77,69 @@
 
   .menu {
     background-color: #4d4a4a;
-    border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 2rem;
   }
   .dropdown-menu-content {
-    display: none;
-    position: absolute;
+    /* display: none; */
+    /* position: absolute; */
     right: 0;
-    top: 9.5vh;
-    width: auto;
-    border-radius: 20px 0 20px 20px;
-    padding: 1.5rem;
-    font-family: "Rubik", sans-serif;
+    /* top: 10vh; */
+    /* width: auto; */
+    /* border-radius: 20px; */
+    /* border-radius: 2rem; */
+    padding: 2rem;
     background-color: #4d4a4a;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     list-style: none;
     color: white;
-    text-align: right;
+    /* text-align: right; */
+  }
+
+  .dropdown-menu-content {
+    position: fixed;
+    z-index: 2;
+    background: #4d4a4a;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    clip-path: circle(100px at 90% -15%);
+    -webkit-clip-path: circle(100px at 90% -15%);
+    transition: all 1s ease-out;
+  }
+
+  .navbar.open {
+    border-radius: 0rem;
   }
 
   .dropdown-menu-content li {
-    margin: 1rem;
+    margin: 6rem 0rem;
+    font-size: 3rem;
+    /* text-align: center; */
   }
 
-  li a {
+  .dropdown-menu-content li a {
     text-decoration: none;
     color: white;
+    padding-bottom: 1rem;
+    border-bottom: 1rem solid white;
+  }
+
+  .box-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+    height: 15vw;
+    margin-bottom: 10rem;
+    border-radius: 2rem;
+    text-align: center;
   }
 
   .nav-toggle {
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 2rem;
     background-color: #4d4a4a;
     font-size: 2.5rem;
     color: white;
@@ -115,11 +147,18 @@
     border-bottom-right-radius: 20px;
   }
 
-  .visible {
+  .dropdown-menu-content.visible {
+    z-index: 2;
     display: flex;
+    clip-path: circle(1100px at 90% -10%);
+    -webkit-clip-path: circle(1100px at 90% -10%);
   }
 
   /*Main Container Styles */
+  .heart.like {
+    color: #c739ff;
+  }
+
   .main-container {
     background: radial-gradient(#787878, #555454);
     color: white;
@@ -226,10 +265,25 @@
 
   .favorite-logo {
     position: relative;
+    z-index: 1;
     bottom: 10rem;
     left: 7rem;
     color: rgba(255, 255, 255, 0.712);
     font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .favorite-logo:hover {
+    color: red;
+  }
+
+  .favorite-logo.like {
+    color: red;
+  }
+
+  .link-page.active {
+    pointer-events: none;
+    display: none;
   }
 
   .image-description {
@@ -357,6 +411,17 @@
     justify-content: center;
     align-items: center;
   }
+  .button-return {
+    position: absolute;
+    top: 10rem;
+    left: 4rem;
+    font-size: 2.5rem;
+  }
+
+  .button-return i {
+    color: white;
+    cursor: pointer;
+  }
 
   .image-container-house {
     min-height: 25rem;
@@ -374,10 +439,16 @@
 
   .favorite-logo-page2 {
     position: relative;
-    bottom: 13rem;
-    left: 12rem;
+    display: flex;
+    flex-direction: column;
+    bottom: 10rem;
+    left: 13rem;
     color: rgba(255, 255, 255, 0.712);
-    font-size: 2.5rem;
+    font-size: 2rem;
+  }
+
+  .favorite-logo-page2 i {
+    margin-bottom: 1rem;
   }
 
   .title-house {
@@ -406,20 +477,36 @@
     flex-wrap: wrap;
   }
 
-  .stars-container-page2 {
-    margin: 5rem 0rem 0rem 18rem;
-  }
-
-  .stars-container-page2 i {
-    color: #787878;
-  }
-
   .text-container-house {
     width: 70vw;
     height: 15rem;
     font-size: 1.6rem;
     color: white;
   }
+
+  .container-community {
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .button-watch-house {
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    background: #4d4a4a;
+  }
+
+  .stars-container-page2 {
+    margin: 5rem 0rem 0rem 12rem;
+  }
+
+  .stars-container-page2 i {
+    color: #787878;
+  }
+
   /*Page 3 */
   .main-container-3 {
     min-height: 80vh;
@@ -446,10 +533,16 @@
 
   .favorite-logo-page3 {
     position: relative;
-    bottom: 13rem;
-    left: 12rem;
+    display: flex;
+    flex-direction: column;
+    bottom: 10rem;
+    left: 13rem;
     color: rgba(255, 255, 255, 0.712);
-    font-size: 2.5rem;
+    font-size: 2rem;
+  }
+
+  .favorite-logo-page3 i {
+    margin-bottom: 1rem;
   }
 
   .title-got {
@@ -485,13 +578,29 @@
     color: white;
   }
 
+  .container-community-got {
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .button-watch-got {
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    background: #4d4a4a;
+  }
+
   .stars-container-page3 {
-    margin: 5rem 0rem 0rem 18rem;
+    margin: 5rem 0rem 0rem 12rem;
   }
 
   .stars-container-page3 i {
     color: #787878;
   }
+
   /*Page 4 */
   .main-container-4 {
     min-height: 80vh;
@@ -518,10 +627,16 @@
 
   .favorite-logo-page4 {
     position: relative;
-    bottom: 13rem;
-    left: 12rem;
+    display: flex;
+    flex-direction: column;
+    bottom: 10rem;
+    left: 13rem;
     color: rgba(255, 255, 255, 0.712);
-    font-size: 2.5rem;
+    font-size: 2rem;
+  }
+
+  .favorite-logo-page4 i {
+    margin-bottom: 1rem;
   }
 
   .title-narcos {
@@ -557,12 +672,52 @@
     color: white;
   }
 
+  .container-community-narcos {
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+
+  .button-watch-narcos {
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    background: #4d4a4a;
+  }
+
   .stars-container-page4 {
-    margin: 5rem 0rem 0rem 18rem;
+    margin: 5rem 0rem 0rem 12rem;
   }
 
   .stars-container-page4 i {
     color: #787878;
+  }
+
+  /*Favourites Page*/
+  .image-container-favourite {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-width: 25rem;
+    min-height: 25rem;
+    border-radius: 2rem;
+    background: #8c8b8b;
+  }
+  .house-image-favourite {
+    background-image: url("./images/house-image.jpg");
+    background-size: cover;
+    background-position: top;
+    cursor: pointer;
+  }
+  .favorite-logo-favourite {
+    position: relative;
+    bottom: 16rem;
+    left: 10rem;
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 1.8rem;
   }
 
   /*CSS A_propos*/
