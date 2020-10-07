@@ -255,16 +255,16 @@
     display: none;
   }
 
-  .title-fav p {
-    font-size: 1.8rem;
-  }
-
   .link-pagefav {
     text-decoration: none;
     color: white;
   }
 
   .fav-logo {
+    display: none;
+  }
+
+  .text-container {
     display: none;
   }
 
