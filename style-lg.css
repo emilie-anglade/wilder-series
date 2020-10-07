@@ -132,6 +132,7 @@
     flex-direction: column;
     min-width: 100vw;
     min-height: 80vh;
+    overflow: hidden;
   }
   /* Title page myfavourites*/
   .list-my-favourites {
@@ -177,7 +178,7 @@
   .article-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    gap: 2rem;
     margin: 2rem;
 
     /*display: flex;
@@ -213,10 +214,11 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    flex-wrap: wrap;
     width: auto;
     height: auto;
-    min-width: 30rem;
-    min-height: 30rem;
+    width: 25vw;
+    height: 35vh;
     border-radius: 2rem;
     background: #8c8b8b;
     /* display: flex;
@@ -291,7 +293,7 @@
   .text-container {
     background: #a8a8a8;
     height: 25rem;
-    width: 40rem;
+    width: 30rem;
     border-radius: 0rem 2rem 2rem 0rem;
     display: flex;
     flex-direction: column;
