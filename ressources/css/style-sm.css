@@ -337,13 +337,7 @@
     background-position: top;
   }
 
-  /*Article-house*/
-
-  .house-image {
-    background-image: url("/ressources/images/house-image.jpg");
-  }
-
-  .favorite-logo-page2 {
+  .favorite-logo-article {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -353,8 +347,14 @@
     font-size: 2rem;
   }
 
-  .favorite-logo-page2 i {
+  .favorite-logo-article i {
     margin-bottom: 1rem;
+  }
+
+  /*Article-house*/
+
+  .house-image {
+    background-image: url("/ressources/images/house-image.jpg");
   }
 
   .title-house {
@@ -416,19 +416,6 @@
   /*Article-Game-Of-Thrones*/
   .got-image {
     background-image: url("/ressources/images/got-image.jpg");
-  }
-  .favorite-logo-page3 {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    bottom: 10rem;
-    left: 13rem;
-    color: rgba(255, 255, 255, 0.712);
-    font-size: 2rem;
-  }
-
-  .favorite-logo-page3 i {
-    margin-bottom: 1rem;
   }
 
   .title-got {
@@ -492,20 +479,6 @@
     background-image: url("/ressources/images/narcos-image.jpg");
   }
 
-  .favorite-logo-page4 {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    bottom: 10rem;
-    left: 13rem;
-    color: rgba(255, 255, 255, 0.712);
-    font-size: 2rem;
-  }
-
-  .favorite-logo-page4 i {
-    margin-bottom: 1rem;
-  }
-
   .title-narcos {
     background: rgba(199, 57, 255, 0.5);
     min-height: 5rem;
@@ -566,19 +539,6 @@
 
   .lucifer-image {
     background-image: url("/ressources/images/lucifer-image.jpg");
-  }
-  .favorite-logo-page5 {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    bottom: 10rem;
-    left: 13rem;
-    color: rgba(255, 255, 255, 0.712);
-    font-size: 2rem;
-  }
-
-  .favorite-logo-page5 i {
-    margin-bottom: 1rem;
   }
 
   .title-lucifer {

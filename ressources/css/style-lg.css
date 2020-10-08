@@ -429,7 +429,7 @@
 
   /*Page 2 */
 
-  .main-container-2 {
+  .main-container-article {
     min-height: 80vh;
     background: radial-gradient(#787878, #555454);
     display: flex;
@@ -441,7 +441,7 @@
     display: none;
   }
 
-  .image-container-house {
+  .article-image {
     min-height: 65rem;
     min-width: 40vw;
     border-radius: 2rem 2rem 2rem 2rem;
