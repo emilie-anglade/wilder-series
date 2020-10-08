@@ -297,7 +297,7 @@
   .text-container {
     background: #a8a8a8;
     min-width: 40vw;
-    min-height: 15rem;
+    height: 15rem;
     border-radius: 0rem 2rem 2rem 0rem;
     display: flex;
     flex-direction: column;
@@ -307,7 +307,9 @@
   }
   .text-container p {
     width: 90%;
-    font-size: 1.6rem;
+    height: 60%;
+    font-size: 1.4rem;
+    overflow: hidden;
   }
 
   .stars-container i {
@@ -460,6 +462,9 @@
   }
 
   .description-container-house {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: auto;
     min-height: 25rem;
     min-width: 80vw;
     background: #a8a8a8;
@@ -473,7 +478,8 @@
 
   .text-container-house {
     width: 70vw;
-    height: 15rem;
+    height: auto;
+    /*height: 15rem;*/
     font-size: 1.6rem;
     color: white;
   }

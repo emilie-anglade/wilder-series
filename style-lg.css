@@ -312,7 +312,9 @@
   }
   .text-container p {
     width: 90%;
+    height: 60%;
     font-size: 1.6rem;
+    overflow: hidden;
   }
 
   .stars-container i {
