@@ -476,7 +476,9 @@
   }
 
   .description-container-house {
-    min-height: 60rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: 60rem;
     min-width: 40vw;
     background: #a8a8a8;
     border-radius: 0rem 2rem 2rem 0rem;
@@ -491,10 +493,20 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 25vw;
-    height: 15rem;
+    align-items: center;
+    padding-top: 2rem;
     font-size: 2rem;
     color: white;
+    overflow: scroll;
+  }
+
+  .text-container-house p {
+    padding-top: 2rem;
+    width: 90%;
+    height: auto;
+    font-size: 1.8rem;
+    text-align: justify;
+    line-height: 150%;
   }
 
   .container-community {
@@ -573,7 +585,9 @@
   }
 
   .description-container-got {
-    min-height: 60rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: 60rem;
     min-width: 40vw;
     background: #a8a8a8;
     border-radius: 0rem 2rem 2rem 0rem;
@@ -588,10 +602,20 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 25vw;
-    height: 15rem;
+    align-items: center;
+    padding-top: 2rem;
     font-size: 2rem;
     color: white;
+    overflow: scroll;
+  }
+
+  .text-container-got p {
+    padding-top: 2rem;
+    width: 90%;
+    height: auto;
+    font-size: 1.8rem;
+    text-align: justify;
+    line-height: 150%;
   }
 
   .container-community-got {
@@ -669,7 +693,9 @@
   }
 
   .description-container-narcos {
-    min-height: 60rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: 60rem;
     min-width: 40vw;
     background: #a8a8a8;
     border-radius: 0rem 2rem 2rem 0rem;
@@ -684,10 +710,20 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 25vw;
-    height: 15rem;
+    align-items: center;
+    padding-top: 2rem;
     font-size: 2rem;
     color: white;
+    overflow: scroll;
+  }
+
+  .text-container-narcos p {
+    padding-top: 2rem;
+    width: 90%;
+    height: auto;
+    font-size: 1.8rem;
+    text-align: justify;
+    line-height: 150%;
   }
 
   .container-community-narcos {
@@ -765,7 +801,9 @@
   }
 
   .description-container-lucifer {
-    min-height: 60rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: 60rem;
     min-width: 40vw;
     background: #a8a8a8;
     border-radius: 0rem 2rem 2rem 0rem;
@@ -780,10 +818,20 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 25vw;
-    height: 15rem;
+    align-items: center;
+    padding-top: 2rem;
     font-size: 2rem;
     color: white;
+    overflow: scroll;
+  }
+
+  .text-container-lucifer p {
+    padding-top: 2rem;
+    width: 90%;
+    height: auto;
+    font-size: 1.8rem;
+    text-align: justify;
+    line-height: 150%;
   }
 
   .container-community-lucifer {

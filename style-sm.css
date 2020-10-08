@@ -479,7 +479,6 @@
   .text-container-house {
     width: 70vw;
     height: auto;
-    /*height: 15rem;*/
     font-size: 1.6rem;
     color: white;
   }
@@ -560,6 +559,9 @@
   }
 
   .description-container-got {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: auto;
     min-height: 25rem;
     min-width: 80vw;
     background: #a8a8a8;
@@ -573,7 +575,7 @@
 
   .text-container-got {
     width: 70vw;
-    height: 15rem;
+    height: auto;
     font-size: 1.6rem;
     color: white;
   }
@@ -654,6 +656,9 @@
   }
 
   .description-container-narcos {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: auto;
     min-height: 25rem;
     min-width: 80vw;
     background: #a8a8a8;
@@ -667,7 +672,7 @@
 
   .text-container-narcos {
     width: 70vw;
-    height: 15rem;
+    height: auto;
     font-size: 1.6rem;
     color: white;
   }
@@ -748,6 +753,9 @@
   }
 
   .description-container-lucifer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: auto;
     min-height: 25rem;
     min-width: 80vw;
     background: #a8a8a8;
@@ -761,7 +769,7 @@
 
   .text-container-lucifer {
     width: 70vw;
-    height: 15rem;
+    height: auto;
     font-size: 1.6rem;
     color: white;
   }
