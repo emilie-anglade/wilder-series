@@ -7,8 +7,8 @@
       name="author"
       content="Christophe Veloupoule - Adrien Faure - Alexandre Dietsch - Emilie Anglade"
     />
-    <link href="style-sm.css" rel="stylesheet" />
-    <link href="style-lg.css" rel="stylesheet" />
+    <link href="style-fav-sm.css" rel="stylesheet" />
+    <link href="style-fav-lg.css" rel="stylesheet" />
     <link
       href="https://fonts.google.com/specimen/Nunito#standard-styles"
       rel="stylesheet"
@@ -24,7 +24,7 @@
       crossorigin="anonymous"
     />
 
-    <title>Wilder's series</title>
+    <title>Wilder's series | Favourites</title>
   </head>
   <body>
     <header>
@@ -64,6 +64,7 @@
         </div>
       </nav>
     </header>
+
     <main>
       <section class="main-container">
         <div class="menu-container">
@@ -71,19 +72,54 @@
             <li>MY FAVOURITES</li>
           </ul>
         </div>
-        <div class="article-container">
-          <div class="article article-drhouse">
-            <a class="link-page" href="page-2.html">
-              <div class="image-container-favourite house-image-favourite">
-                <div class="favorite-logo-favourite">
+
+        <section class="card-list">
+          <!--Carte House -->
+          <article class="card">
+            <a class="link-pagefav" href="page-2.html">
+              <div
+                class="image-fav-house image-container-favourite house-image"
+              >
+                <div class="fav-logo">
                   <i class="fas fa-heart"></i>
                 </div>
-                <div class="image-description">
+                <div class="title-fav">
                   <p>Dr House</p>
                 </div>
               </div>
             </a>
-          </div>
+          </article>
+
+          <!--Carte Narcos -->
+          <article class="card">
+            <a class="link-pagefav" href="page-3.html">
+              <div
+                class="image-fav-narcos image-container-favourite narcos-image"
+              >
+                <div class="fav-logo">
+                  <i class="fas fa-heart"></i>
+                </div>
+                <div class="title-fav">
+                  <p>Narcos</p>
+                </div>
+              </div>
+            </a>
+          </article>
+
+          <!--Carte GoT -->
+          <article class="card">
+            <a class="link-pagefav" href="page-4.html">
+              <div class="image-fav-got image-container-favourite got-image">
+                <div class="fav-logo">
+                  <i class="fas fa-heart"></i>
+                </div>
+                <div class="title-fav">
+                  <p>Game of Thrones</p>
+                </div>
+              </div>
+            </a>
+          </article>
+        </section>
       </section>
     </main>
     <footer>
