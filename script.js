@@ -5,4 +5,9 @@ button.addEventListener("click", function () {
   list.classList.toggle("visible");
 });
 
-  
+/*commentaires*/
+function addCom(e) {
+  let myCom = document.getElementById('com').value;
+  document.getElementById('testcom').style.display = 'flex';
+  document.getElementById('nouveaucom').innerHTML = myCom;
+}
