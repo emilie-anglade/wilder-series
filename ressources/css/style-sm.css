@@ -21,15 +21,15 @@
     background-color: #4d4a4a;
     justify-content: flex-end;
     align-items: center;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
     min-height: 10vh;
   }
 
   .logo {
     flex: 2;
     background-color: #4d4a4a;
-    border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 2rem;
   }
 
   .logo-title {
@@ -41,7 +41,7 @@
     font-size: 2rem;
     color: white;
     background: linear-gradient(90deg, #c739ff, #8539ff);
-    border-radius: 20px;
+    border-radius: 2rem;
     text-align: center;
     margin: 1rem;
     padding: 1rem 0rem;
@@ -53,7 +53,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 2rem;
   }
 
   .research {
@@ -80,19 +80,11 @@
     border-bottom-right-radius: 2rem;
   }
   .dropdown-menu-content {
-    /* display: none; */
-    /* position: absolute; */
     right: 0;
-    /* top: 10vh; */
-    /* width: auto; */
-    /* border-radius: 20px; */
-    /* border-radius: 2rem; */
     padding: 2rem;
     background-color: #4d4a4a;
-    /* font-size: 1.5rem; */
     list-style: none;
     color: white;
-    /* text-align: right; */
   }
 
   .dropdown-menu-content {
@@ -153,7 +145,7 @@
     -webkit-clip-path: circle(1100px at 90% -10%);
   }
 
-  /*Main Container Styles */
+  /*Index Styles */
   .heart.like {
     color: #c739ff;
   }
@@ -227,34 +219,25 @@
     min-height: 18rem;
     border-radius: 2rem;
     background: #8c8b8b;
+    background-size: cover;
+    background-position: top;
+    cursor: pointer;
   }
 
   .house-image {
     background-image: url("/ressources/images/house-image.jpg");
-    background-size: cover;
-    background-position: top;
-    cursor: pointer;
   }
 
   .got-image {
     background-image: url("/ressources/images/got-image.jpg");
-    background-size: cover;
-    background-position: top;
-    cursor: pointer;
   }
 
   .narcos-image {
     background-image: url("/ressources/images/narcos-image.jpg");
-    background-size: cover;
-    background-position: top;
-    cursor: pointer;
   }
 
   .lucifer-image {
     background-image: url("/ressources/images/lucifer-image.jpg");
-    background-size: cover;
-    background-position: top;
-    cursor: pointer;
   }
 
   .favorite-logo {
