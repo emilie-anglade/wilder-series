@@ -7,8 +7,8 @@
       name="author"
       content="Christophe Veloupoule - Adrien Faure - Alexandre Dietsch - Emilie Anglade"
     />
-    <link href="style-sm.css" rel="stylesheet" />
-    <link href="style-lg.css" rel="stylesheet" />
+    <link href="./ressources/css/style-sm.css" rel="stylesheet" />
+    <link href="./ressources/css/style-lg.css" rel="stylesheet" />
     <link
       href="https://fonts.google.com/specimen/Nunito#standard-styles"
       rel="stylesheet"
@@ -23,14 +23,13 @@
       integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
       crossorigin="anonymous"
     />
-
-    <title>Wilder's series</title>
+    <title>Wilder's series | Lucifer</title>
   </head>
   <body>
     <header>
       <nav class="navbar">
         <div class="logo">
-          <a href="index.html" class="link-page"
+          <a href="./index.html" class="link-page"
             ><h1 class="logo-title">Wilder's series</h1></a
           >
         </div>
@@ -56,94 +55,70 @@
               <i class="fas fa-bars"></i>
             </button>
             <div class="dropdown-menu-content">
-              <li><a href="index.html">HOME</a></li>
-              <li><a href="favourites.html">FAVOURITES</a></li>
-              <li><a href="A_propos.html">CONTACT US</a></li>
+              <li><a href="./index.html">HOME</a></li>
+              <li><a href="./favourites.html">FAVOURITES</a></li>
+              <li><a href="./contact.html">CONTACT US</a></li>
             </div>
           </div>
         </div>
       </nav>
     </header>
     <main>
-      <section class="main-container-team">
-        <h2 class="team">THE TEAM</h2>
-        <div class="container-members">
-          <div class="member-photo">
-            <a href="https://placeholder.com"
-              ><img
-                src="https://via.placeholder.com/70"
-                alt=""
-                class="flag-icon"
-            /></a>
-            <div class="member-description">
-              Christophe passionné de séries télévisées...
-            </div>
+      <section class="main-container-article">
+        <div class="button-return">
+          <a href="./index.html"><i class="fas fa-arrow-left"></i></a>
+        </div>
+        <div class="article-image lucifer-image">
+          <div class="favorite-logo-article">
+            <i class="fas fa-heart heart"></i>
+            <i class="fas fa-share"></i>
           </div>
-          <div class="member-photo">
-            <a href="https://placeholder.com"
-              ><img
-                src="https://via.placeholder.com/70"
-                alt=""
-                class="flag-icon"
-            /></a>
-            <div class="member-description">
-              Adrien passionné de séries télévisées...
-            </div>
+          <div class="title-article">
+            <p>Lucifer</p>
           </div>
-          <div class="member-photo">
-            <a href="https://placeholder.com"
-              ><img
-                src="https://via.placeholder.com/70"
-                alt=""
-                class="flag-icon"
-            /></a>
-            <div class="member-description">
-              Alexandre passionné de séries télévisées...
-            </div>
+        </div>
+        <div class="description-container-article">
+          <div class="text-container-article">
+            <p>
+              Tired and tired of being the "Lord of the Underworld", Lucifer
+              Morningstar abandons his kingdom and goes to Los Angeles where he
+              owns a nightclub called "Lux". Lucifer received the gift of
+              forcing people to reveal their deepest desires. One evening,
+              Lucifer witnesses the murder of a pop singer in front of his club.
+              He therefore decides to go in search of the culprit and crosses
+              his path a policewoman named Chloe Decker who resists her donation
+              and puts a strain on him. While Lucifer Morningstar and Chloe
+              Decker team up to find the murderer, God sends the angel Amenadiel
+              to Earth to convince Lucifer to rule Hell again.<br /><br />
+              Thriller, Comedy (2016/2020)<br /><br />
+              Created by Tom Kapinos
+            </p>
           </div>
-          <div class="member-photo">
-            <a href="https://placeholder.com"
-              ><img
-                src="https://via.placeholder.com/70"
-                alt=""
-                class="flag-icon"
-            /></a>
-            <div class="member-description">
-              Emilie passionnée de séries télévisées...
+          <div class="container-community">
+            <div class="container-button-watch-lucifer">
+              <a
+                href="https://www.netflix.com/fr/title/80057918"
+                target="_blank"
+                ><button type="submit" class="button-watch-article">
+                  WATCH
+                </button></a
+              >
+            </div>
+            <div class="stars-container-article">
+              <i class="fas fa-star star-check"></i>
+              <i class="fas fa-star star-check"></i>
+              <i class="fas fa-star star-check"></i>
+              <i class="fas fa-star star-check"></i>
+              <i class="far fa-star"></i>
             </div>
           </div>
         </div>
-        <section class="contact-main">
-          <h2 class="contact-us">CONTACT US</h2>
-
-          <form id="contactForm">
-            <label for="email"></label>
-            <input
-              type="text"
-              class="mail-message"
-              id="email"
-              name="email"
-              value="Enter your email"
-              size="30"
-            /><br /><br />
-
-            <label for="message"></label>
-            <textarea
-              name="message"
-              class="mail-message message-contact"
-              cols="30"
-              rows="10"
-              placeholder="Your message"
-            ></textarea>
-            <div class="send"><input type="submit" value="Send" /></div>
-          </form>
-        </section>
       </section>
     </main>
     <footer>
       <div class="footer-container">
         <div class="lg-notices">
-          <h2><a href="A_propos.html">CONTACT US</a></h2>
+          <h2><a href="./contact.html">CONTACT US</a></h2>
           <h2>LEGAL NOTICES</h2>
         </div>
         <div class="newsletter-container">
@@ -172,6 +147,6 @@
         </div>
       </div>
     </footer>
-    <script src="script.js"></script>
+    <script src="./ressources/js/script.js"></script>
   </body>
 </html>

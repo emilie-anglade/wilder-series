@@ -21,15 +21,15 @@
     background-color: #4d4a4a;
     justify-content: flex-end;
     align-items: center;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
     min-height: 10vh;
   }
 
   .logo {
     flex: 2;
     background-color: #4d4a4a;
-    border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 2rem;
   }
 
   .logo-title {
@@ -41,7 +41,7 @@
     font-size: 2rem;
     color: white;
     background: linear-gradient(90deg, #c739ff, #8539ff);
-    border-radius: 20px;
+    border-radius: 2rem;
     text-align: center;
     margin: 1rem;
     padding: 1rem 0rem;
@@ -53,7 +53,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 2rem;
   }
 
   .research {
@@ -80,19 +80,11 @@
     border-bottom-right-radius: 2rem;
   }
   .dropdown-menu-content {
-    /* display: none; */
-    /* position: absolute; */
     right: 0;
-    /* top: 10vh; */
-    /* width: auto; */
-    /* border-radius: 20px; */
-    /* border-radius: 2rem; */
     padding: 2rem;
     background-color: #4d4a4a;
-    /* font-size: 1.5rem; */
     list-style: none;
     color: white;
-    /* text-align: right; */
   }
 
   .dropdown-menu-content {
@@ -153,12 +145,13 @@
     -webkit-clip-path: circle(1100px at 90% -10%);
   }
 
-  /*Main Container Styles */
+  /*Index Styles */
   .heart.like {
     color: #c739ff;
   }
 
-  .main-container {
+  .main-container,
+  .main-container-article {
     background: radial-gradient(#787878, #555454);
     color: white;
     display: flex;
@@ -227,34 +220,25 @@
     min-height: 18rem;
     border-radius: 2rem;
     background: #8c8b8b;
+    background-size: cover;
+    background-position: top;
+    cursor: pointer;
   }
 
   .house-image {
-    background-image: url("./images/house-image.jpg");
-    background-size: cover;
-    background-position: top;
-    cursor: pointer;
+    background-image: url("/ressources/images/house-image.jpg");
   }
 
   .got-image {
-    background-image: url("./images/got-image.jpg");
-    background-size: cover;
-    background-position: top;
-    cursor: pointer;
+    background-image: url("/ressources/images/got-image.jpg");
   }
 
   .narcos-image {
-    background-image: url("./images/narcos-image.jpg");
-    background-size: cover;
-    background-position: top;
-    cursor: pointer;
+    background-image: url("/ressources/images/narcos-image.jpg");
   }
 
   .lucifer-image {
-    background-image: url("./images/lucifer-image.jpg");
-    background-size: cover;
-    background-position: top;
-    cursor: pointer;
+    background-image: url("/ressources/images/lucifer-image.jpg");
   }
 
   .favorite-logo {
@@ -320,7 +304,137 @@
     color: rgba(255, 215, 0.6);
   }
 
-  /*Footer */
+  /*Article*/
+  .main-container-article {
+    min-height: 80vh;
+    background: radial-gradient(#787878, #555454);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button-return {
+    position: absolute;
+    top: 10rem;
+    left: 4rem;
+    font-size: 2.5rem;
+  }
+
+  .button-return i {
+    color: white;
+    cursor: pointer;
+  }
+
+  .article-image {
+    min-height: 25rem;
+    min-width: 80vw;
+    background: #8c8b8b;
+    border-radius: 2rem 2rem 0rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-size: cover;
+    background-position: top;
+  }
+
+  .favorite-logo-article {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 10rem;
+    left: 13rem;
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 2rem;
+  }
+
+  .favorite-logo-article i {
+    margin-bottom: 1rem;
+  }
+
+  .title-article {
+    background: rgba(199, 57, 255, 0.5);
+    min-height: 5rem;
+    min-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+
+  .description-container-article {
+    min-height: 25rem;
+    min-width: 80vw;
+    background: #a8a8a8;
+    border-radius: 0rem 0rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: auto;
+  }
+
+  .text-container-article {
+    width: 70vw;
+    height: auto;
+    font-size: 1.6rem;
+    color: white;
+  }
+
+  .container-community {
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .button-watch-article {
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    background: #4d4a4a;
+  }
+
+  .stars-container-article {
+    margin: 5rem 0rem 0rem 12rem;
+  }
+
+  .stars-container-article i {
+    color: #787878;
+  }
+
+  /*Article-house*/
+
+  .house-image {
+    background-image: url("/ressources/images/house-image.jpg");
+  }
+
+  /*Article-Game-Of-Thrones*/
+  .got-image {
+    background-image: url("/ressources/images/got-image.jpg");
+  }
+
+  /*Article-Narcos */
+  .narcos-image {
+    background-image: url("/ressources/images/narcos-image.jpg");
+  }
+
+  /*Article-Lucifer*/
+
+  .lucifer-image {
+    background-image: url("/ressources/images/lucifer-image.jpg");
+  }
+
+  /*Footer*/
 
   footer {
     background: radial-gradient(#787878, #555454);
@@ -352,6 +466,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
   }
 
   .newsletter-lg {
@@ -368,7 +483,6 @@
     padding: 0.5rem 1rem;
     font-family: "Rubik", sans-serif;
     border-radius: 0.5rem;
-    width: 90%;
   }
 
   .box-newsletter button {
@@ -377,7 +491,6 @@
     padding: 0.5rem;
     border: none;
     background: linear-gradient(90deg, #c739ff, #8539ff);
-
     color: white;
   }
   .social-container {
@@ -398,406 +511,7 @@
     margin-left: 1rem;
   }
 
-  /*Page-2*/
-  .main-container-2 {
-    min-height: 80vh;
-    background: radial-gradient(#787878, #555454);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .button-return {
-    position: absolute;
-    top: 10rem;
-    left: 4rem;
-    font-size: 2.5rem;
-  }
-
-  .button-return i {
-    color: white;
-    cursor: pointer;
-  }
-
-  .image-container-house {
-    min-height: 25rem;
-    min-width: 80vw;
-    background: #8c8b8b;
-    border-radius: 2rem 2rem 0rem 0rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    background-image: url("./images/house-image.jpg");
-    background-size: cover;
-    background-position: top;
-  }
-
-  .favorite-logo-page2 {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    bottom: 10rem;
-    left: 13rem;
-    color: rgba(255, 255, 255, 0.712);
-    font-size: 2rem;
-  }
-
-  .favorite-logo-page2 i {
-    margin-bottom: 1rem;
-  }
-
-  .title-house {
-    background: rgba(199, 57, 255, 0.5);
-    min-height: 5rem;
-    min-width: 50vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    border-radius: 2rem;
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
-  }
-
-  .description-container-house {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    height: auto;
-    min-height: 25rem;
-    min-width: 80vw;
-    background: #a8a8a8;
-    border-radius: 0rem 0rem 2rem 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-
-  .text-container-house {
-    width: 70vw;
-    height: auto;
-    font-size: 1.6rem;
-    color: white;
-  }
-
-  .container-community {
-    width: 70vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-  }
-
-  .button-watch-house {
-    padding: 1rem;
-    border-radius: 2rem;
-    border: none;
-    color: white;
-    background: #4d4a4a;
-  }
-
-  .stars-container-page2 {
-    margin: 5rem 0rem 0rem 12rem;
-  }
-
-  .stars-container-page2 i {
-    color: #787878;
-  }
-
-  /*Page 3 */
-  .main-container-3 {
-    min-height: 80vh;
-    background: radial-gradient(#787878, #555454);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .image-container-got {
-    min-height: 25rem;
-    min-width: 80vw;
-    background: #8c8b8b;
-    border-radius: 2rem 2rem 0rem 0rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    background-image: url("./images/got-image.jpg");
-    background-size: cover;
-    background-position: top;
-  }
-
-  .favorite-logo-page3 {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    bottom: 10rem;
-    left: 13rem;
-    color: rgba(255, 255, 255, 0.712);
-    font-size: 2rem;
-  }
-
-  .favorite-logo-page3 i {
-    margin-bottom: 1rem;
-  }
-
-  .title-got {
-    background: rgba(199, 57, 255, 0.5);
-    min-height: 5rem;
-    min-width: 50vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    border-radius: 2rem;
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
-  }
-
-  .description-container-got {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    height: auto;
-    min-height: 25rem;
-    min-width: 80vw;
-    background: #a8a8a8;
-    border-radius: 0rem 0rem 2rem 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-
-  .text-container-got {
-    width: 70vw;
-    height: auto;
-    font-size: 1.6rem;
-    color: white;
-  }
-
-  .container-community-got {
-    width: 70vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-  }
-
-  .button-watch-got {
-    padding: 1rem;
-    border-radius: 2rem;
-    border: none;
-    color: white;
-    background: #4d4a4a;
-  }
-
-  .stars-container-page3 {
-    margin: 5rem 0rem 0rem 12rem;
-  }
-
-  .stars-container-page3 i {
-    color: #787878;
-  }
-
-  /*Page 4 */
-  .main-container-4 {
-    min-height: 80vh;
-    background: radial-gradient(#787878, #555454);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .image-container-narcos {
-    min-height: 25rem;
-    min-width: 80vw;
-    background: #8c8b8b;
-    border-radius: 2rem 2rem 0rem 0rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    background-image: url("./images/narcos-image.jpg");
-    background-size: cover;
-    background-position: top;
-  }
-
-  .favorite-logo-page4 {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    bottom: 10rem;
-    left: 13rem;
-    color: rgba(255, 255, 255, 0.712);
-    font-size: 2rem;
-  }
-
-  .favorite-logo-page4 i {
-    margin-bottom: 1rem;
-  }
-
-  .title-narcos {
-    background: rgba(199, 57, 255, 0.5);
-    min-height: 5rem;
-    min-width: 50vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    border-radius: 2rem;
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
-  }
-
-  .description-container-narcos {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    height: auto;
-    min-height: 25rem;
-    min-width: 80vw;
-    background: #a8a8a8;
-    border-radius: 0rem 0rem 2rem 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-
-  .text-container-narcos {
-    width: 70vw;
-    height: auto;
-    font-size: 1.6rem;
-    color: white;
-  }
-
-  .container-community-narcos {
-    width: 70vw;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-  }
-
-  .button-watch-narcos {
-    padding: 1rem;
-    border-radius: 2rem;
-    border: none;
-    color: white;
-    background: #4d4a4a;
-  }
-
-  .stars-container-page4 {
-    margin: 5rem 0rem 0rem 12rem;
-  }
-
-  .stars-container-page4 i {
-    color: #787878;
-  }
-
-  /*Page 5 */
-  .main-container-5 {
-    min-height: 80vh;
-    background: radial-gradient(#787878, #555454);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .image-container-lucifer {
-    min-height: 25rem;
-    min-width: 80vw;
-    background: #8c8b8b;
-    border-radius: 2rem 2rem 0rem 0rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    background-image: url("./images/lucifer-image.jpg");
-    background-size: cover;
-    background-position: top;
-  }
-
-  .favorite-logo-page5 {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    bottom: 10rem;
-    left: 13rem;
-    color: rgba(255, 255, 255, 0.712);
-    font-size: 2rem;
-  }
-
-  .favorite-logo-page5 i {
-    margin-bottom: 1rem;
-  }
-
-  .title-lucifer {
-    background: rgba(199, 57, 255, 0.5);
-    min-height: 5rem;
-    min-width: 50vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    border-radius: 2rem;
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
-  }
-
-  .description-container-lucifer {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    height: auto;
-    min-height: 25rem;
-    min-width: 80vw;
-    background: #a8a8a8;
-    border-radius: 0rem 0rem 2rem 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-
-  .text-container-lucifer {
-    width: 70vw;
-    height: auto;
-    font-size: 1.6rem;
-    color: white;
-  }
-
-  .container-community-lucifer {
-    width: 70vw;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-  }
-
-  .button-watch-lucifer {
-    padding: 1rem;
-    border-radius: 2rem;
-    border: none;
-    color: white;
-    background: #4d4a4a;
-  }
-
-  .stars-container-page5 {
-    margin: 5rem 0rem 0rem 12rem;
-  }
-
-  .stars-container-page5 i {
-    color: #787878;
-  }
-
-  /*CSS A_propos*/
+  /*Contact*/
 
   .team {
     padding-top: 10px;
