@@ -312,7 +312,6 @@
     align-items: center;
   }
 
-  /*Article-house*/
   .button-return {
     position: absolute;
     top: 10rem;
@@ -325,7 +324,7 @@
     cursor: pointer;
   }
 
-  .image-container-house {
+  .article-image {
     min-height: 25rem;
     min-width: 80vw;
     background: #8c8b8b;
@@ -334,9 +333,14 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    background-image: url("/ressources/images/house-image.jpg");
     background-size: cover;
     background-position: top;
+  }
+
+  /*Article-house*/
+
+  .house-image {
+    background-image: url("/ressources/images/house-image.jpg");
   }
 
   .favorite-logo-page2 {
@@ -410,20 +414,9 @@
   }
 
   /*Article-Game-Of-Thrones*/
-  .image-container-got {
-    min-height: 25rem;
-    min-width: 80vw;
-    background: #8c8b8b;
-    border-radius: 2rem 2rem 0rem 0rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+  .got-image {
     background-image: url("/ressources/images/got-image.jpg");
-    background-size: cover;
-    background-position: top;
   }
-
   .favorite-logo-page3 {
     position: relative;
     display: flex;
@@ -495,18 +488,8 @@
   }
 
   /*Article-Narcos */
-  .image-container-narcos {
-    min-height: 25rem;
-    min-width: 80vw;
-    background: #8c8b8b;
-    border-radius: 2rem 2rem 0rem 0rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+  .narcos-image {
     background-image: url("/ressources/images/narcos-image.jpg");
-    background-size: cover;
-    background-position: top;
   }
 
   .favorite-logo-page4 {
@@ -580,20 +563,10 @@
   }
 
   /*Article-Lucifer*/
-  .image-container-lucifer {
-    min-height: 25rem;
-    min-width: 80vw;
-    background: #8c8b8b;
-    border-radius: 2rem 2rem 0rem 0rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    background-image: url("/ressources/images/lucifer-image.jpg");
-    background-size: cover;
-    background-position: top;
-  }
 
+  .lucifer-image {
+    background-image: url("/ressources/images/lucifer-image.jpg");
+  }
   .favorite-logo-page5 {
     position: relative;
     display: flex;
