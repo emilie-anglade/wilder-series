@@ -351,13 +351,7 @@
     margin-bottom: 1rem;
   }
 
-  /*Article-house*/
-
-  .house-image {
-    background-image: url("/ressources/images/house-image.jpg");
-  }
-
-  .title-house {
+  .title-article {
     background: rgba(199, 57, 255, 0.5);
     min-height: 5rem;
     min-width: 50vw;
@@ -371,7 +365,7 @@
     font-size: 2.5rem;
   }
 
-  .description-container-house {
+  .description-container-article {
     min-height: 25rem;
     min-width: 80vw;
     background: #a8a8a8;
@@ -383,7 +377,7 @@
     flex-wrap: wrap;
   }
 
-  .text-container-house {
+  .text-container-article {
     width: 70vw;
     height: 15rem;
     font-size: 1.6rem;
@@ -397,12 +391,18 @@
     align-items: flex-end;
   }
 
-  .button-watch-house {
+  .button-watch-article {
     padding: 1rem;
     border-radius: 2rem;
     border: none;
     color: white;
     background: #4d4a4a;
+  }
+
+  /*Article-house*/
+
+  .house-image {
+    background-image: url("/ressources/images/house-image.jpg");
   }
 
   .stars-container-page2 {
@@ -418,54 +418,6 @@
     background-image: url("/ressources/images/got-image.jpg");
   }
 
-  .title-got {
-    background: rgba(199, 57, 255, 0.5);
-    min-height: 5rem;
-    min-width: 50vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    border-radius: 2rem;
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
-  }
-
-  .description-container-got {
-    min-height: 25rem;
-    min-width: 80vw;
-    background: #a8a8a8;
-    border-radius: 0rem 0rem 2rem 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-
-  .text-container-got {
-    width: 70vw;
-    height: 15rem;
-    font-size: 1.6rem;
-    color: white;
-  }
-
-  .container-community-got {
-    width: 70vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-  }
-
-  .button-watch-got {
-    padding: 1rem;
-    border-radius: 2rem;
-    border: none;
-    color: white;
-    background: #4d4a4a;
-  }
-
   .stars-container-page3 {
     margin: 5rem 0rem 0rem 12rem;
   }
@@ -477,20 +429,6 @@
   /*Article-Narcos */
   .narcos-image {
     background-image: url("/ressources/images/narcos-image.jpg");
-  }
-
-  .title-narcos {
-    background: rgba(199, 57, 255, 0.5);
-    min-height: 5rem;
-    min-width: 50vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    border-radius: 2rem;
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
   }
 
   .description-container-narcos {
@@ -512,21 +450,6 @@
     color: white;
   }
 
-  .container-community-narcos {
-    width: 70vw;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-  }
-
-  .button-watch-narcos {
-    padding: 1rem;
-    border-radius: 2rem;
-    border: none;
-    color: white;
-    background: #4d4a4a;
-  }
-
   .stars-container-page4 {
     margin: 5rem 0rem 0rem 12rem;
   }
@@ -539,54 +462,6 @@
 
   .lucifer-image {
     background-image: url("/ressources/images/lucifer-image.jpg");
-  }
-
-  .title-lucifer {
-    background: rgba(199, 57, 255, 0.5);
-    min-height: 5rem;
-    min-width: 50vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    border-radius: 2rem;
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
-  }
-
-  .description-container-lucifer {
-    min-height: 25rem;
-    min-width: 80vw;
-    background: #a8a8a8;
-    border-radius: 0rem 0rem 2rem 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-
-  .text-container-lucifer {
-    width: 70vw;
-    height: 15rem;
-    font-size: 1.6rem;
-    color: white;
-  }
-
-  .container-community-lucifer {
-    width: 70vw;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-  }
-
-  .button-watch-lucifer {
-    padding: 1rem;
-    border-radius: 2rem;
-    border: none;
-    color: white;
-    background: #4d4a4a;
   }
 
   .stars-container-page5 {
