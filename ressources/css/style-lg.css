@@ -449,13 +449,16 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    background-image: url("/ressources/images/house-image.jpg");
     background-size: cover;
     background-position: top;
     position: relative;
   }
 
-  .favorite-logo-page2 {
+  .house-image {
+    background-image: url("/ressources/images/house-image.jpg");
+  }
+
+  .favorite-logo-article {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -465,15 +468,15 @@
     font-size: 2rem;
   }
 
-  .favorite-logo-page2 i {
+  .favorite-logo-article i {
     margin-bottom: 1rem;
   }
 
-  .title-house {
+  .title-article {
     display: none;
   }
 
-  .description-container-house {
+  .description-container-article {
     min-height: 60rem;
     min-width: 40vw;
     background: #a8a8a8;
@@ -485,7 +488,7 @@
     flex-wrap: nowrap;
   }
 
-  .text-container-house {
+  .text-container-article {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -502,7 +505,7 @@
     align-items: flex-end;
   }
 
-  .button-watch-house {
+  .button-watch-article {
     padding: 2rem 5rem;
     border-radius: 2rem;
     border: none;
@@ -511,12 +514,12 @@
     cursor: pointer;
   }
 
-  .stars-container-page2 {
+  .stars-container-article {
     margin: 5rem 0rem 0rem 5rem;
     flex-wrap: nowrap;
   }
 
-  .stars-container-page2 i {
+  .stars-container-article i {
     color: #787878;
   }
 
@@ -526,7 +529,7 @@
 
   /*Page 3 */
 
-  .main-container-3 {
+  .main-container-article {
     min-height: 80vh;
     background: radial-gradient(#787878, #555454);
     display: flex;
@@ -538,7 +541,7 @@
     display: none;
   }
 
-  .image-container-got {
+  .image-container-article {
     min-height: 65rem;
     min-width: 40vw;
     border-radius: 2rem 2rem 2rem 2rem;
@@ -546,13 +549,16 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    background-image: url("/ressources/images/got-image.jpg");
     background-size: cover;
     background-position: top;
     position: relative;
   }
 
-  .favorite-logo-page3 {
+  .got-image {
+    background-image: url("/ressources/images/got-image.jpg");
+  }
+
+  .favorite-logo-article {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -562,15 +568,15 @@
     font-size: 2rem;
   }
 
-  .favorite-logo-page3 i {
+  .favorite-logo-article i {
     margin-bottom: 1rem;
   }
 
-  .title-got {
+  .title-article {
     display: none;
   }
 
-  .description-container-got {
+  .description-container-article {
     min-height: 60rem;
     min-width: 40vw;
     background: #a8a8a8;
@@ -582,7 +588,7 @@
     flex-wrap: nowrap;
   }
 
-  .text-container-got {
+  .text-container-article {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -592,14 +598,14 @@
     color: white;
   }
 
-  .container-community-got {
+  .container-community-article {
     width: 25vw;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
   }
 
-  .button-watch-got {
+  .button-watch-article {
     padding: 2rem 5rem;
     border-radius: 2rem;
     border: none;
@@ -608,12 +614,12 @@
     cursor: pointer;
   }
 
-  .stars-container-page3 {
+  .stars-container-article {
     margin: 5rem 0rem 0rem 5rem;
     flex-wrap: nowrap;
   }
 
-  .stars-container-page3 i {
+  .stars-container-article i {
     color: #787878;
   }
 
@@ -622,7 +628,7 @@
   }
 
   /*Page 4 */
-  .main-container-4 {
+  .main-container-article {
     min-height: 80vh;
     background: radial-gradient(#787878, #555454);
     display: flex;
@@ -634,7 +640,7 @@
     display: none;
   }
 
-  .image-container-narcos {
+  .image-container-article {
     min-height: 65rem;
     min-width: 40vw;
     border-radius: 2rem 2rem 2rem 2rem;
@@ -642,13 +648,16 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    background-image: url("/ressources/images/narcos-image.jpg");
     background-size: cover;
     background-position: top;
     position: relative;
   }
 
-  .favorite-logo-page4 {
+  .narcos-image {
+    background-image: url("/ressources/images/narcos-image.jpg");
+  }
+
+  .favorite-logo-article {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -658,7 +667,7 @@
     font-size: 2rem;
   }
 
-  .favorite-logo-page4 i {
+  .favorite-logo-article i {
     margin-bottom: 1rem;
   }
 
@@ -666,7 +675,7 @@
     display: none;
   }
 
-  .description-container-narcos {
+  .description-container-article {
     min-height: 60rem;
     min-width: 40vw;
     background: #a8a8a8;
@@ -678,7 +687,7 @@
     flex-wrap: nowrap;
   }
 
-  .text-container-narcos {
+  .text-container-article {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -688,14 +697,14 @@
     color: white;
   }
 
-  .container-community-narcos {
+  .container-community-article {
     width: 25vw;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
   }
 
-  .button-watch-narcos {
+  .button-watch-article {
     padding: 2rem 5rem;
     border-radius: 2rem;
     border: none;
@@ -704,12 +713,12 @@
     cursor: pointer;
   }
 
-  .stars-container-page4 {
+  .stars-container-article {
     margin: 5rem 0rem 0rem 5rem;
     flex-wrap: nowrap;
   }
 
-  .stars-container-page4 i {
+  .stars-container-article i {
     color: #787878;
   }
 
@@ -718,7 +727,7 @@
   }
 
   /*Page 5 */
-  .main-container-5 {
+  .main-container-article {
     min-height: 80vh;
     background: radial-gradient(#787878, #555454);
     display: flex;
@@ -730,7 +739,7 @@
     display: none;
   }
 
-  .image-container-lucifer {
+  .image-container-article {
     min-height: 65rem;
     min-width: 40vw;
     border-radius: 2rem 2rem 2rem 2rem;
@@ -738,13 +747,16 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    background-image: url("/ressources/images/lucifer-image.jpg");
     background-size: cover;
     background-position: top;
     position: relative;
   }
 
-  .favorite-logo-page5 {
+  .lucifer-image {
+    background-image: url("/ressources/images/lucifer-image.jpg");
+  }
+
+  .favorite-logo-article {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -754,15 +766,15 @@
     font-size: 2rem;
   }
 
-  .favorite-logo-page5 i {
+  .favorite-logo-article i {
     margin-bottom: 1rem;
   }
 
-  .title-lucifer {
+  .title-article {
     display: none;
   }
 
-  .description-container-lucifer {
+  .description-container-article {
     min-height: 60rem;
     min-width: 40vw;
     background: #a8a8a8;
@@ -774,7 +786,7 @@
     flex-wrap: nowrap;
   }
 
-  .text-container-lucifer {
+  .text-container-article {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -784,14 +796,14 @@
     color: white;
   }
 
-  .container-community-lucifer {
+  .container-community-article {
     width: 25vw;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
   }
 
-  .button-watch-lucifer {
+  .button-watch-article {
     padding: 2rem 5rem;
     border-radius: 2rem;
     border: none;
@@ -800,12 +812,12 @@
     cursor: pointer;
   }
 
-  .stars-container-page5 {
+  .stars-container-article {
     margin: 5rem 0rem 0rem 5rem;
     flex-wrap: nowrap;
   }
 
-  .stars-container-page5 i {
+  .stars-container-article i {
     color: #787878;
   }
 
