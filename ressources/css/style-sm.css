@@ -150,7 +150,8 @@
     color: #c739ff;
   }
 
-  .main-container {
+  .main-container,
+  .main-container-article {
     background: radial-gradient(#787878, #555454);
     color: white;
     display: flex;
@@ -301,8 +302,8 @@
     color: rgba(255, 215, 0.6);
   }
 
-  /*Article-House*/
-  .main-container-2 {
+  /*Article*/
+  .main-container-article {
     min-height: 80vh;
     background: radial-gradient(#787878, #555454);
     display: flex;
@@ -310,6 +311,8 @@
     justify-content: center;
     align-items: center;
   }
+
+  /*Article-house*/
   .button-return {
     position: absolute;
     top: 10rem;
@@ -407,15 +410,6 @@
   }
 
   /*Article-Game-Of-Thrones*/
-  .main-container-3 {
-    min-height: 80vh;
-    background: radial-gradient(#787878, #555454);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
   .image-container-got {
     min-height: 25rem;
     min-width: 80vw;
@@ -501,15 +495,6 @@
   }
 
   /*Article-Narcos */
-  .main-container-4 {
-    min-height: 80vh;
-    background: radial-gradient(#787878, #555454);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
   .image-container-narcos {
     min-height: 25rem;
     min-width: 80vw;
@@ -595,15 +580,6 @@
   }
 
   /*Article-Lucifer*/
-  .main-container-5 {
-    min-height: 80vh;
-    background: radial-gradient(#787878, #555454);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
   .image-container-lucifer {
     min-height: 25rem;
     min-width: 80vw;
