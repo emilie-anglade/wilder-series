@@ -250,6 +250,13 @@
     cursor: pointer;
   }
 
+  .lucifer-image {
+    background-image: url("/ressources/images/lucifer-image.jpg");
+    background-size: cover;
+    background-position: top;
+    cursor: pointer;
+  }
+
   .fav-logo {
     display: none;
   }

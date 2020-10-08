@@ -14,3 +14,17 @@ button.addEventListener("click", function () {
 logoHeart.addEventListener("click", (event) => {
   event.target.classList.toggle("like") = "#c739ff";
 });
+
+// Add to favourites function
+
+const favLogo = document.querySelector(".favorite-logo");
+
+// favLogo.addEventListener("click", function () {
+//   let card = document.createElement("article");
+//   let;
+// });
+const favourites = localStorage.getItem("favourites");
+
+if (!favourites) {
+  localStorage.setItem("favourites", JSON.stringify([]));
+}

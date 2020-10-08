@@ -166,10 +166,10 @@
     flex: 2;
     display: flex;
     padding: 3rem;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
   }
 
-  .card-list::-webkit-scrollbar {
+  /* .card-list::-webkit-scrollbar {
     width: 10px;
     height: 10px;
   }
@@ -188,7 +188,7 @@
       #17141d 0,
       #17141d
     );
-  }
+  } */
 
   .card {
     display: flex;
@@ -212,7 +212,13 @@
     margin-left: -60px;
   }
 
-  .image-fav-house {
+  .image-container-favourite {
+    height: 400px;
+    width: 400px;
+    border-radius: 2rem;
+  }
+
+  /*.image-fav-house {
     height: 400px;
     width: 400px;
     border-radius: 2rem;
@@ -220,9 +226,9 @@
     background-size: cover;
     background-position: top;
     cursor: pointer;
-  }
+  } */
 
-  .image-fav-narcos {
+  /*.image-fav-narcos {
     height: 400px;
     width: 400px;
     border-radius: 2rem;
@@ -230,7 +236,7 @@
     background-size: cover;
     background-position: top;
     cursor: pointer;
-  }
+  } 
 
   .image-fav-got {
     height: 400px;
@@ -242,21 +248,19 @@
     cursor: pointer;
   }
 
-  .title-fav {
-    display: none;
-  }
+  .image-fav-lucifer {
+    height: 400px;
+    width: 400px;
+    border-radius: 2rem;
+    background-image: url("/ressources/images/lucifer-image.jpg");
+    background-size: cover;
+    background-position: top;
+    cursor: pointer;
+  } */
 
   .link-pagefav {
     text-decoration: none;
     color: white;
-  }
-
-  .fav-logo {
-    display: none;
-  }
-
-  .text-container {
-    display: none;
   }
 
   /*Footer */
