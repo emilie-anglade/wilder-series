@@ -399,18 +399,18 @@
     background: #4d4a4a;
   }
 
+  .stars-container-article {
+    margin: 5rem 0rem 0rem 12rem;
+  }
+
+  .stars-container-article i {
+    color: #787878;
+  }
+
   /*Article-house*/
 
   .house-image {
     background-image: url("/ressources/images/house-image.jpg");
-  }
-
-  .stars-container-page2 {
-    margin: 5rem 0rem 0rem 12rem;
-  }
-
-  .stars-container-page2 i {
-    color: #787878;
   }
 
   /*Article-Game-Of-Thrones*/
@@ -418,58 +418,15 @@
     background-image: url("/ressources/images/got-image.jpg");
   }
 
-  .stars-container-page3 {
-    margin: 5rem 0rem 0rem 12rem;
-  }
-
-  .stars-container-page3 i {
-    color: #787878;
-  }
-
   /*Article-Narcos */
   .narcos-image {
     background-image: url("/ressources/images/narcos-image.jpg");
-  }
-
-  .description-container-narcos {
-    min-height: 25rem;
-    min-width: 80vw;
-    background: #a8a8a8;
-    border-radius: 0rem 0rem 2rem 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-
-  .text-container-narcos {
-    width: 70vw;
-    height: 15rem;
-    font-size: 1.6rem;
-    color: white;
-  }
-
-  .stars-container-page4 {
-    margin: 5rem 0rem 0rem 12rem;
-  }
-
-  .stars-container-page4 i {
-    color: #787878;
   }
 
   /*Article-Lucifer*/
 
   .lucifer-image {
     background-image: url("/ressources/images/lucifer-image.jpg");
-  }
-
-  .stars-container-page5 {
-    margin: 5rem 0rem 0rem 12rem;
-  }
-
-  .stars-container-page5 i {
-    color: #787878;
   }
 
   /*Footer*/
