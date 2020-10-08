@@ -223,42 +223,10 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    min-width: 25rem;
-    min-height: 25rem;
+    width: 25rem;
+    height: 25rem;
     border-radius: 2rem;
     background: #8c8b8b;
-  }
-
-  .house-image {
-    background-image: url("/ressources/images/house-image.jpg");
-    background-size: cover;
-    background-position: top;
-    cursor: pointer;
-  }
-
-  .got-image {
-    background-image: url("/ressources/images/got-image.jpg");
-    background-size: cover;
-    background-position: top;
-    cursor: pointer;
-  }
-
-  .narcos-image {
-    background-image: url("/ressources/images/narcos-image.jpg");
-    background-size: cover;
-    background-position: top;
-    cursor: pointer;
-  }
-
-  .lucifer-image {
-    background-image: url("/ressources/images/lucifer-image.jpg");
-    background-size: cover;
-    background-position: top;
-    cursor: pointer;
-  }
-
-  .fav-logo {
-    display: none;
   }
 
   /*Footer */

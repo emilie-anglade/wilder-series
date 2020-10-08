@@ -17,14 +17,51 @@ logoHeart.addEventListener("click", (event) => {
 
 // Add to favourites function
 
-const favLogo = document.querySelector(".favorite-logo");
-
-// favLogo.addEventListener("click", function () {
-//   let card = document.createElement("article");
-//   let;
-// });
-const favourites = localStorage.getItem("favourites");
+const favLogoHouse = document.querySelector(".fav-house");
+const favLogoGot = document.querySelector(".fav-got");
+const favLogoNarcos = document.querySelector(".fav-narcos");
+const favLogoLucifer = document.querySelector(".fav-lucifer");
 
 if (!favourites) {
   localStorage.setItem("favourites", JSON.stringify([]));
 }
+
+favLogoHouse.addEventListener("click", function () {
+  localStorage.setItem(
+    "favourites",
+    JSON.stringify.push({
+      image: "./ressources/images/house-image.resized.jpg",
+      href: "./article-house.html",
+    })
+  );
+});
+
+favLogoGot.addEventListener("click", function () {
+  localStorage.setItem(
+    "favourites",
+    JSON.stringify.push({
+      image: "./ressources/images/got-image.resized.jpg",
+      href: "./article-got.html",
+    })
+  );
+});
+
+favLogoNarcos.addEventListener("click", function () {
+  localStorage.setItem(
+    "favourites",
+    JSON.stringify.push({
+      image: "./ressources/images/narcos-image.resized.jpg",
+      href: "./article-narcos.html",
+    })
+  );
+});
+
+favLogoLucifer.addEventListener("click", function () {
+  localStorage.setItem(
+    "favourites",
+    JSON.stringify.push({
+      image: "./ressources/images/lucifer-image.resized.jpg",
+      href: "./article-lucifer.html",
+    })
+  );
+});

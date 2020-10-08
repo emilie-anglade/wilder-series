@@ -1,25 +1,27 @@
-const series = [
+/* const series = [
   {
     name: "Dr House",
-    image: "./ressources/images/house-image-resized.jpg",
+    image: "./ressources/images/house-image.resized.jpg",
     href: "./article-house.html",
   },
   {
     name: "Narcos",
-    image: "./ressources/images/narcos-image.jpg",
+    image: "./ressources/images/narcos-image.resized.jpg",
     href: "./article-narcos.html",
   },
   {
     name: "Game of Thrones",
-    image: "./ressources/images/got-image.jpg",
+    image: "./ressources/images/got-image.resized.jpg",
     href: "./article-got.html",
   },
   {
     name: "Lucifer",
-    image: "./ressources/images/lucifer-image.jpg",
+    image: "./ressources/images/lucifer-image.resized.jpg",
     href: "./article-lucifer.html",
   },
-];
+]; */
+
+const series = localStorage.getItem("favourites", JSON.parse([]));
 
 const cardList = document.querySelector(".card-list");
 

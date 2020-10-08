@@ -200,8 +200,6 @@
     background: black;
     box-shadow: -1rem 1.5rem 1.8rem black;
     transition: 0.2s;
-    /*justify-content: flex-end;
-    align-items: flex-end;*/
   }
 
   .card:hover {
@@ -217,46 +215,6 @@
     width: 400px;
     border-radius: 2rem;
   }
-
-  /*.image-fav-house {
-    height: 400px;
-    width: 400px;
-    border-radius: 2rem;
-    background-image: url("/ressources/images/house-image.jpg");
-    background-size: cover;
-    background-position: top;
-    cursor: pointer;
-  } */
-
-  /*.image-fav-narcos {
-    height: 400px;
-    width: 400px;
-    border-radius: 2rem;
-    background-image: url("/ressources/images/narcos-image.jpg");
-    background-size: cover;
-    background-position: top;
-    cursor: pointer;
-  } 
-
-  .image-fav-got {
-    height: 400px;
-    width: 400px;
-    border-radius: 2rem;
-    background-image: url("/ressources/images/got-image.jpg");
-    background-size: cover;
-    background-position: top;
-    cursor: pointer;
-  }
-
-  .image-fav-lucifer {
-    height: 400px;
-    width: 400px;
-    border-radius: 2rem;
-    background-image: url("/ressources/images/lucifer-image.jpg");
-    background-size: cover;
-    background-position: top;
-    cursor: pointer;
-  } */
 
   .link-pagefav {
     text-decoration: none;
