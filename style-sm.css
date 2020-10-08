@@ -1,4 +1,4 @@
-@media screen and (max-width: 760px) {
+@media (max-width: 760px) {
   /*Global styles */
   * {
     margin: 0;
@@ -737,10 +737,32 @@
     justify-content: space-between;
     margin-bottom: 50px;
   }
-  .flag-icon {
+  .flag-icon1 {
     border-radius: 60px;
     z-index: 1;
     position: relative;
+    background-image: url("./images/christophe.png");
+  }
+
+  .flag-icon2 {
+    border-radius: 60px;
+    z-index: 1;
+    position: relative;
+    background-color: url("./images/adrien.png");
+  }
+
+  .flag-icon3 {
+    border-radius: 60px;
+    z-index: 1;
+    position: relative;
+    background-color: url("./images/alexandre.png");
+  }
+
+  .flag-icon4 {
+    border-radius: 60px;
+    z-index: 1;
+    position: relative;
+    background-color: url("./images/emilie.png");
   }
   .member-description {
     display: flex;
@@ -777,22 +799,11 @@
     flex-direction: column;
     width: 100%;
   }
-  /*
-.size-form-email-sm {
-  background-color: #a8a8a8;
-  color: whitesmoke;
-  border-radius: 20px;
-}*/
+ 
   .flag-icon {
     border-radius: 50px;
   }
-  /*
-.size-form-message-sm{
-  height: 12rem;
-  border-radius: 10px;
-  background-color: #a8a8a8;
-  color: whitesmoke;
-}*/
+
   .mail-messageForm-sm {
     border: 0px;
     background-color: #a8a8a8;
