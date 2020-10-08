@@ -216,7 +216,7 @@
     height: 400px;
     width: 400px;
     border-radius: 2rem;
-    background-image: url("./images/house-image.jpg");
+    background-image: url("/ressources/images/house-image.jpg");
     background-size: cover;
     background-position: top;
     cursor: pointer;
@@ -226,7 +226,7 @@
     height: 400px;
     width: 400px;
     border-radius: 2rem;
-    background-image: url("./images/narcos-image.jpg");
+    background-image: url("/ressources/images/narcos-image.jpg");
     background-size: cover;
     background-position: top;
     cursor: pointer;
@@ -236,7 +236,7 @@
     height: 400px;
     width: 400px;
     border-radius: 2rem;
-    background-image: url("./images/got-image.jpg");
+    background-image: url("/ressources/images/got-image.jpg");
     background-size: cover;
     background-position: top;
     cursor: pointer;

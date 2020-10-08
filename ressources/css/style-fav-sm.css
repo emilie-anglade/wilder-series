@@ -230,21 +230,21 @@
   }
 
   .house-image {
-    background-image: url("./images/house-image.jpg");
+    background-image: url("/ressources/images/house-image.jpg");
     background-size: cover;
     background-position: top;
     cursor: pointer;
   }
 
   .got-image {
-    background-image: url("./images/got-image.jpg");
+    background-image: url("/ressources/images/got-image.jpg");
     background-size: cover;
     background-position: top;
     cursor: pointer;
   }
 
   .narcos-image {
-    background-image: url("./images/narcos-image.jpg");
+    background-image: url("/ressources/images/narcos-image.jpg");
     background-size: cover;
     background-position: top;
     cursor: pointer;
