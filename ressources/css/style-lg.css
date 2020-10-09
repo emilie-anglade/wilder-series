@@ -131,9 +131,11 @@
     color: white;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     min-width: 100vw;
-    min-height: 80vh;
-    margin: auto;
+    min-height: 90vh;
+    position: relative;
   }
   /* Title page myfavourites*/
   .list-my-favourites {
@@ -149,6 +151,9 @@
   }
 
   .menu-container {
+    position: absolute;
+    top: 0rem;
+    right: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -179,20 +184,19 @@
   .article-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    margin: auto;
-    min-height: 50vh;
-    max-width: 100%;
+    min-width: 80vw;
+    min-height: 70vh;
+    margin: 20px 0;
   }
 
   .article {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    min-height: 30vh;
+    flex-wrap: nowrap;
     padding: 2rem;
   }
 
@@ -309,6 +313,7 @@
 
   .main-container-article {
     min-height: 80vh;
+    min-width: 100vw;
     background: radial-gradient(#787878, #555454);
     display: flex;
     flex-direction: row;
@@ -320,8 +325,9 @@
   }
 
   .article-image {
-    min-height: 65rem;
+    min-height: 70vh;
     min-width: 40vw;
+    margin-left: 8rem;
     border-radius: 2rem 2rem 2rem 2rem;
     display: flex;
     flex-direction: column;
@@ -358,7 +364,7 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
     height: 60rem;
-    min-width: 40vw;
+    min-width: 20vw;
     background: #a8a8a8;
     border-radius: 0rem 2rem 2rem 0rem;
     display: flex;
@@ -366,6 +372,7 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: nowrap;
+    margin-right: 8rem;
   }
 
   .text-container-article {
@@ -376,12 +383,13 @@
     padding-top: 2rem;
     font-size: 2rem;
     color: white;
-    overflow: scroll;
+    /*  */
+    margin: 0 4rem;
   }
 
   .text-container-house p {
     padding-top: 2rem;
-    width: 90%;
+    min-width: 80%;
     height: auto;
     font-size: 1.8rem;
     text-align: justify;
@@ -488,7 +496,6 @@
     padding-top: 2rem;
     font-size: 2rem;
     color: white;
-    overflow: scroll;
   }
 
   .text-container-got p {
@@ -599,7 +606,6 @@
     padding-top: 2rem;
     font-size: 2rem;
     color: white;
-    overflow: scroll;
   }
 
   .text-container-narcos p {
@@ -710,7 +716,6 @@
     padding-top: 2rem;
     font-size: 2rem;
     color: white;
-    overflow: scroll;
   }
 
   .text-container-lucifer p {
