@@ -337,6 +337,39 @@
     position: relative;
   }
 
+  .share-container {
+    position: absolute;
+    top: 3rem;
+    right: -1.8rem;
+    min-width: 30rem;
+    min-height: 15rem;
+    background: linear-gradient(90deg, #c739ff, #8539ff);
+    border-radius: 2rem;
+    clip-path: circle(10% at 90% 20%);
+    -webkit-clip-path: circle(10% at 90% 20%);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .share-container:hover {
+    clip-path: circle(75%);
+    -webkit-clip-path: circle(75%);
+  }
+
+  .share-button {
+    position: absolute;
+    top: 2rem;
+    right: 0.5rem;
+    margin-right: 4%;
+  }
+
+  .social-share {
+    font-size: 4rem;
+  }
+
   .house-image {
     background-image: url("/ressources/images/house-image.jpg");
   }
