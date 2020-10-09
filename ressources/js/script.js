@@ -3,7 +3,6 @@ const button = document.querySelector(".nav-toggle");
 const borderRadius = document.querySelector(".navbar");
 const favoriteLogo = document.querySelector(".favorite-logo");
 const logoHeart = document.querySelector(".heart");
-const shareButton = document.querySelector("#share-button");
 
 //ADD EVENTS LISTENERS
 button.addEventListener("click", function () {
@@ -13,5 +12,5 @@ button.addEventListener("click", function () {
 });
 
 logoHeart.addEventListener("click", (event) => {
-  event.target.classList.toggle("like") = "#c739ff";
+  event.target.classList.toggle("like");
 });
