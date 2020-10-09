@@ -89,7 +89,7 @@
     border-radius: 0.5rem;
     padding: 0.5rem;
     border: none;
-    background: linear-gradient(90deg, #c739ff, #8539ff);
+    background-color: rgba(185, 185, 185, 0.5);
     color: white;
   }
 
@@ -136,10 +136,14 @@
     justify-content: center;
     min-width: 100vw;
     min-height: 80vh;
+    position: relative;
   }
 
   /* Title page myfavourites*/
   .menu-container {
+    position: absolute;
+    top: 0;
+    right: 0;
     flex: 1;
     display: flex;
     width: -moz-available;
@@ -152,7 +156,7 @@
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin: 2rem 2rem;
   }
 
@@ -167,17 +171,20 @@
     display: flex;
     padding: 3rem;
     overflow-x: scroll;
+    margin-top: 10rem;
   }
 
   .card-list::-webkit-scrollbar {
     width: 10px;
     height: 10px;
   }
+
   .card-list::-webkit-scrollbar-thumb {
     background: #201c29;
     border-radius: 10px;
     box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, 0.25),
       inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+    display: none;
   }
 
   .card-list::-webkit-scrollbar-track {
@@ -188,6 +195,7 @@
       #17141d 0,
       #17141d
     );
+    display: none;
   }
 
   .card {
@@ -198,7 +206,7 @@
     width: 400px;
     border-radius: 2rem;
     background: radial-gradient(#787878, #555454);
-    box-shadow: -1rem 1.5rem 1.8rem black;
+    box-shadow: -1rem 1.5rem 1.8rem #555454;
     transition: 0.2s;
     justify-content: center;
     align-items: center;
@@ -335,8 +343,7 @@
     border-radius: 0.5rem;
     padding: 0.5rem;
     border: none;
-    background: linear-gradient(90deg, #c739ff, #8539ff);
-
+    background-color: rgba(185, 185, 185, 0.5);
     color: white;
   }
   .social-container {
