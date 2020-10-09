@@ -21,7 +21,7 @@
   },
 ]; */
 
-const series = localStorage.getItem("favourites", JSON.parse([]));
+const series = JSON.parse(localStorage.getItem("favourites"));
 
 const cardList = document.querySelector(".card-list");
 
