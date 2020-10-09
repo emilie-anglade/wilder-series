@@ -135,14 +135,10 @@
     justify-content: center;
     min-width: 100vw;
     min-height: 80vh;
-    position: relative;
   }
 
   /* Title page myfavourites*/
   .menu-container {
-    position: absolute;
-    top: 0;
-    right: 0;
     flex: 1;
     display: flex;
     width: -moz-available;
@@ -192,6 +188,15 @@
       #17141d 0,
       #17141d
     );
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    border-radius: 2rem;
+    background: black;
+    box-shadow: -1rem 1.5rem 1.8rem black;
+    transition: 0.2s;
     } */
 
   .card {
