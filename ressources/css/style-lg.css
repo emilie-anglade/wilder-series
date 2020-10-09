@@ -231,10 +231,6 @@
     color: #c739ff;
   }
 
-  .favorite-logo.like {
-    color: #c739ff;
-  }
-
   .house-image {
     background-image: url("/ressources/images/house-image.jpg");
     background-size: cover;
@@ -306,6 +302,10 @@
 
   .star-check::before {
     color: rgba(255, 215, 0.6);
+  }
+
+  .heart.like {
+    color: #c739ff;
   }
 
   /*Page 2 */
