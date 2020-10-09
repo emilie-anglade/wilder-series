@@ -821,7 +821,7 @@
     display: flex;
     background: radial-gradient(#787878, #555454);
     min-width: 100vw;
-    min-height: 80vh;
+    min-height: 90vh;
     color: white;
     align-items: baseline;
   }
@@ -872,9 +872,9 @@
   .flag-icon4 {
     border-radius: 60px;
     z-index: 1;
-    position: relative;    
+    position: relative;
   }
-  
+
   .member-description {
     display: flex;
     flex-direction: column;
@@ -924,7 +924,7 @@
   #enter-mail::placeholder {
     color: white;
   }
- 
+
   .mail-messageForm-lg {
     padding-bottom: 100px;
     padding-top: 20px;
@@ -948,4 +948,3 @@
     padding: 5px 10px;
   }
 }
-
