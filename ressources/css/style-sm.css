@@ -222,6 +222,10 @@
     cursor: pointer;
   }
 
+  .share-container {
+    display: none;
+  }
+
   .house-image {
     background-image: url("/ressources/images/house-image.jpg");
   }
@@ -565,7 +569,7 @@
     padding: 1rem 50px 3rem 40px;
     margin-top: 20px;
     margin-left: -30px;
-    font-size: 1.2Rem;
+    font-size: 1.2rem;
     color: white;
   }
   .contact-main {
@@ -590,7 +594,7 @@
     flex-direction: column;
     width: 100%;
   }
- 
+
   .flag-icon {
     border-radius: 50px;
   }
@@ -629,6 +633,4 @@
   .button-send {
     padding: 5px 10px;
   }
-
 }
-
