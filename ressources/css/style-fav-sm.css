@@ -204,7 +204,7 @@
     width: 25rem;
     border-radius: 2rem;
     background: radial-gradient(#787878, #555454);
-    box-shadow: -1rem -1rem 1.6rem black;
+    box-shadow: -1rem -1rem 1.6rem #464545;
     justify-content: center;
     align-items: center;
   }
