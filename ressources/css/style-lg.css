@@ -109,9 +109,6 @@
 
   /*Index Styles */
 
-  .heart.like {
-    color: #c739ff;
-  }
   .main-container {
     background: radial-gradient(#787878, #555454);
     color: white;
@@ -207,6 +204,7 @@
   .favorite-logo:hover {
     color: #c739ff;
   }
+
   .house-image {
     background-image: url("/ressources/images/house-image.jpg");
     background-size: cover;
@@ -275,6 +273,7 @@
   .heart.like {
     color: #c739ff;
   }
+
   /*Page 2 */
 
   .main-container-article {

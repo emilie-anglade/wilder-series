@@ -135,14 +135,10 @@
     justify-content: center;
     min-width: 100vw;
     min-height: 80vh;
-    position: relative;
   }
 
   /* Title page myfavourites*/
   .menu-container {
-    position: absolute;
-    top: 0;
-    right: 0;
     flex: 1;
     display: flex;
     width: -moz-available;
@@ -169,11 +165,9 @@
     flex: 2;
     display: flex;
     padding: 3rem;
-    overflow-x: scroll;
-    margin-top: 10rem;
   }
 
-  .card-list::-webkit-scrollbar {
+  /* .card-list::-webkit-scrollbar {
     width: 10px;
     height: 10px;
   }
@@ -194,8 +188,16 @@
       #17141d 0,
       #17141d
     );
-    display: none;
-  }
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    border-radius: 2rem;
+    background: black;
+    box-shadow: -1rem 1.5rem 1.8rem black;
+    transition: 0.2s;
+    } */
 
   .card {
     display: flex;
@@ -207,8 +209,6 @@
     background: radial-gradient(#787878, #555454);
     box-shadow: -1rem 1.5rem 1.8rem #555454;
     transition: 0.2s;
-    justify-content: center;
-    align-items: center;
   }
 
   .card:hover {
@@ -219,51 +219,15 @@
     margin-left: -60px;
   }
 
-  .image-fav-house {
+  .image-container-favourite {
     height: 400px;
     width: 400px;
     border-radius: 2rem;
-    background-image: url("/ressources/images/house-image.jpg");
-    background-size: cover;
-    background-position: top;
-    cursor: pointer;
-  }
-
-  .image-fav-narcos {
-    height: 400px;
-    width: 400px;
-    border-radius: 2rem;
-    background-image: url("/ressources/images/narcos-image.jpg");
-    background-size: cover;
-    background-position: top;
-    cursor: pointer;
-  }
-
-  .image-fav-got {
-    height: 400px;
-    width: 400px;
-    border-radius: 2rem;
-    background-image: url("/ressources/images/got-image.jpg");
-    background-size: cover;
-    background-position: top;
-    cursor: pointer;
-  }
-
-  .title-fav {
-    display: none;
   }
 
   .link-pagefav {
     text-decoration: none;
     color: white;
-  }
-
-  .fav-logo {
-    display: none;
-  }
-
-  .text-container {
-    display: none;
   }
 
   /*Footer */
