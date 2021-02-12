@@ -1,25 +1,3 @@
-/* const series = [
-  {
-    name: "Dr House",
-    image: "./ressources/images/house-image.resized.jpg",
-    href: "./article-house.html",
-  },
-  {
-    name: "Narcos",
-    image: "./ressources/images/narcos-image.resized.jpg",
-    href: "./article-narcos.html",
-  },
-  {
-    name: "Game of Thrones",
-    image: "./ressources/images/got-image.resized.jpg",
-    href: "./article-got.html",
-  },
-  {
-    name: "Lucifer",
-    image: "./ressources/images/lucifer-image.resized.jpg",
-    href: "./article-lucifer.html",
-  },
-]; */
 
 const series = JSON.parse(localStorage.getItem("favourites"));
 
@@ -37,8 +15,7 @@ const createCard = (serie) => {
   image.src = serie.image;
 
   link.href = serie.href;
-  //link.innerHTML = image;
-
+  
   cardList.appendChild(card);
   card.appendChild(link);
   link.appendChild(image);
